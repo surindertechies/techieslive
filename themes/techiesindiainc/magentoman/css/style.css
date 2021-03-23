@@ -1,0 +1,978 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #696969;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+a,
+input {
+    transform: translateZ(0px);
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    border: 0;
+    height: auto;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-weight: 700;
+    color: #363636;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 700;
+    color: #101010;
+}
+
+.panel1 {
+    background-image: url("../images/banner-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 870px;
+}
+
+.nopadding {
+    padding: 0px!important;
+}
+
+.menu {
+    margin-top: 25px!important;
+}
+
+.navbar-nav .fa {
+    font-size: 24px;
+}
+
+.social-icons {
+    float: left;
+    margin-top: 12px;
+}
+
+.social-icons a {
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.mobile-icons {}
+
+.mobile-icons i {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.banner-area h1 {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-area h1 span {
+    color: #ff6600;
+    font-weight: 500;
+}
+
+.banner-area p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 20px 0;
+}
+
+.banner-area a {
+    font-size: 16px;
+    color: #353f4b;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 8px;
+    margin: 10px 0 0 0;
+}
+
+.mobicon {
+    font-size: 80px!important;
+}
+
+.mybtn-info {
+    border-width: 1px;
+    border-color: rgb(241, 196, 15);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(241, 196, 15);
+    width: 299px;
+    height: 44px;
+}
+
+.banner-text {
+    margin: 100px 0 0 0;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+}
+
+.nav>li>a {
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.rays {
+    width: 891px;
+    height: 947px;
+    margin: auto;
+    background: url(../images/rays.png) top center no-repeat;
+    background-size: 90% 90%;
+    text-align: center;
+    padding: 70px 0 0;
+}
+
+.rays .floating {
+    margin-top: 100px;
+}
+
+.floating {
+    animation-name: floating;
+    -webkit-animation-name: floating;
+    -moz-animation-name: floating;
+    animation-duration: 2.5s;
+    -webkit-animation-duration: 2.5s;
+    -moz-animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(3%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes floating {
+    0% {
+        -webkit-transform: translateY(0%);
+    }
+    50% {
+        -webkit-transform: translateY(3%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-moz-keyframes floating {
+    0% {
+        -moz-transform: translateY(0%);
+    }
+    50% {
+        -moz-transform: translateY(3%);
+    }
+    100% {
+        -moz-transform: translateY(0%);
+    }
+}
+
+.box {
+    padding: 120px 0;
+}
+
+.about {
+    margin-top: 80px;
+}
+
+.about p {
+    margin: 10px 0 30px;
+}
+
+.about .col-md-4 {
+    margin-top: 70px;
+}
+
+.about .col-md-4 h4 {
+    margin-top: 40px;
+}
+
+.button1 {
+    border: 1px solid #363636;
+    padding: 10px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #363636;
+    display: inline-block;
+}
+
+.button1:hover {
+    border: 1px solid #ff6600;
+    color: #fefacc;
+    background: #ff6600;
+}
+
+.red,
+.blue,
+.green {
+    padding: 94px 0;
+    min-height: 400px;
+    color: #ccc;
+}
+
+.red {
+    background: url(../images/bg1.jpg) center top / cover no-repeat;
+}
+
+.blue {
+    background: url(../images/bg2.jpg) center top / cover no-repeat;
+}
+
+.green {
+    background: url(../images/bg3.jpg) center top / cover no-repeat;
+}
+
+.red h3,
+.blue h3,
+.green h3 {
+    color: #fff;
+    margin: 70px 0 20px;
+}
+
+.red .col-md-8,
+.blue .col-md-8,
+.green .col-md-8 {
+    padding-left: 35px;
+}
+
+.testimonial .col-md-6 {
+    padding: 0 60px;
+}
+
+.testimonial .col-md-6 img {
+    margin: 75px 0 60px;
+}
+
+.testimonial .col-md-6 p {
+    margin-bottom: 20px;
+}
+
+.quickContact {
+    background: url(../images/bg4.jpg) center top / cover repeat-y;
+    min-height: 400px;
+    padding: 80px 0 60px;
+    color: #fff;
+}
+
+.quickContact h3 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.quickContact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.quickContact textarea {
+    border: 1px soid #fff;
+    background: transparent;
+    height: 100px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.quickContact input[type="text"],
+.quickContact input[type="email"] {
+    border: 1px solid #fff;
+    background: transparent;
+    height: 50px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.quickContact input[type="submit"] {
+    border: 0;
+    background: #ff6600;
+    color: #fefacc;
+    padding: 12px 50px;
+}
+
+.quickContact .wpcf7-captchac {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.team h6 {
+    text-transform: uppercase;
+    margin: 20px 0 10px;
+}
+
+.team img {
+    top: 0;
+}
+
+.marginT100 {
+    margin-top: 100px;
+}
+
+.marginB100 {
+    margin-bottom: 100px;
+}
+
+.clients {
+    background: url(../images/bg5.jpg) center top / cover repeat-y;
+    min-height: 400px;
+    padding: 120px 0;
+}
+
+.clients ul {
+    margin: 70px 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+.clients ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.projects h3 {
+    margin-bottom: 10px;
+}
+
+.projects .col-md-4 img {
+    width: 100%;
+}
+
+.projects ul {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.projects ul li {
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.projects ul li:last-child {
+    margin-right: 0;
+}
+
+.projects ul li a {
+    color: #363636;
+    display: block;
+}
+
+.projects ul li span {
+    margin-top: 25px;
+    display: block;
+}
+
+.contactTop {
+    background: #ebebeb;
+    height: 1px;
+    content: "";
+    margin-bottom: 170px;
+    color: #253264;
+    font-weight: 600;
+}
+
+.contactTop img {
+    margin-top: -70px;
+}
+
+.contact {
+    padding: 100px 0 0;
+}
+
+.contact h5 {
+    font-weight: 500;
+    color: #363636;
+    margin-top: 15px;
+}
+
+.contact p,
+.contact a {
+    font-weight: 600;
+    color: #404040;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.contact a.email {
+    color: #253264;
+}
+
+ul.social {
+    margin: 50px 0 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+ul.social li {
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.copyright {
+    background: #ebebeb;
+    height: 100px;
+    padding-top: 44px;
+    color: #404040;
+    text-align: center;
+    margin-top: 50px;
+}
+
+div.wpcf7-validation-errors {
+    display: inline-block;
+}
+
+.pdfDownloadOverlay {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+.pdfDownload {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #000;
+    bottom: 0;
+    height: 450px;
+    left: 0;
+    margin: auto;
+    padding: 40px 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 500px;
+}
+
+.pdfDownload .close {
+    color: #f00;
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 1;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+	width:auto;
+	height:auto;
+	background:none;
+}
+
+.pdfDownload input[type="text"],
+.pdfDownload input[type="email"] {
+    width: 100%;
+}
+
+.pdfDownload form {
+    margin-top: 20px;
+}
+
+.close {
+    color: #000;
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    opacity: 0.2;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.pdfDownload h4 {
+    color: #2374b6;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.pdfDownload h5 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.close1 {
+    bottom: 40px;
+    color: #000;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    position: absolute;
+    right: 30px;
+    text-transform: uppercase;
+}
+.pdfDownload h5{color:#000;}
+
+ul.landingLink {
+    margin: 30px 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul.landingLink li {
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+}
+
+ul.landingLink li a {
+    font-weight: normal;
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+ul.landingLink li:last-child {
+    border-right: 0px solid #ccc;
+}
+
+ul.social {
+    background: none;
+    display: block;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .col-md-3.col-xs-6 {
+        min-height: 310px;
+    }
+    .clients ul li {
+        margin: 20px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .rays {
+        width: 100%;
+        background: url(../images/rays.png) no-repeat center 70px;
+        background-size: 100% 65%;
+    }
+    .about {
+        margin-top: 45px;
+    }
+    .red,
+    .blue,
+    .green,
+    .blue .text-right {
+        text-align: center;
+    }
+    .blue .pull-right {
+        float: none !important;
+    }
+    .team .respMT100,
+    .team .marginT100 {
+        margin-top: 0;
+    }
+    .team .marginB100 {
+        margin-bottom: 0;
+    }
+    .team .col-md-3 {
+        min-height: 300px;
+    }
+    .team p {
+        margin-bottom: 50px;
+    }
+    .clients ul li {
+        margin: 20px;
+    }
+    .navbar-brand>img {
+        display: inline-block;
+    }
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        margin: 0;
+    }
+    .navbar-header,
+    .navbar-brand {
+        width: 100%;
+        float: none;
+        display: inline-block;
+        text-align: center;
+    }
+    .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+    .navbar-collapse.collapse {
+        width: 100%;
+    }
+    .navbar-nav>li {
+        display: inline-block;
+        float: none;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+    .rays {
+        padding: 30px 0 0;
+        width: 100%;
+        background: url(../images/rays.png) no-repeat center 95px;
+        background-size: 100% 55%;
+    }
+    .red,
+    .blue,
+    .green,
+    .blue .text-right {
+        text-align: center;
+    }
+    .blue .pull-right {
+        float: none !important;
+    }
+    .team .marginT100 {
+        margin-top: 50px;
+    }
+    .team .respMB100,
+    .team .marginB100 {
+        margin-bottom: 50px;
+    }
+    .about {
+        margin-top: 40px;
+    }
+    .clients ul li {
+        margin: 20px;
+    }
+    .top-nav-collapse {
+        background-color: #363e82;
+        padding: 10px 0 30px;
+    }
+    .navbar {
+        border-bottom: 1px solid #7573a2;
+        padding: 10px 0 50px;
+        transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent;
+        box-shadow: none;
+        text-align: right;
+        background-color: #363e82;
+    }
+    ul.social {
+        margin: 0;
+    }
+    .ourStory,
+    .social {
+        min-height: 170px;
+    }
+    ul.landingLink li {
+        line-height: 9px;
+    }
+    ul.landingLink li a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+    .rays {
+        padding: 30px 0 0;
+        width: 100%;
+        background: url(../images/rays.png) no-repeat center 140px !important;
+        background-size: 100% 40% !important;
+    }
+    .rays .floating {
+        margin-top: 70px !important;
+    }
+    .clients ul li {
+        margin: 20px;
+    }
+    ul.social {
+        margin: 0;
+    }
+    .ourStory,
+    .social {
+        min-height: 170px;
+    }
+    ul.landingLink li {
+        line-height: 9px;
+    }
+    ul.landingLink li a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+    .rays {
+        padding: 30px 0 0;
+        width: 100%;
+        background: url(../images/rays.png) no-repeat center 95px;
+        background-size: 100% 55%;
+    }
+    .red,
+    .blue,
+    .green,
+    .blue .text-right {
+        text-align: center;
+    }
+    .blue .pull-right {
+        float: none !important;
+    }
+    .team .marginT100 {
+        margin-top: 50px;
+    }
+    .team .respMB100,
+    .team .marginB100 {
+        margin-bottom: 50px;
+    }
+    .about {
+        margin-top: 40px;
+    }
+    .clients ul li {
+        margin: 20px;
+    }
+    .top-nav-collapse {
+        background-color: #363e82;
+        padding: 10px 0 30px;
+    }
+    .navbar {
+        border-bottom: 1px solid #7573a2;
+        padding: 10px 0 50px;
+        transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent;
+        box-shadow: none;
+        text-align: right;
+        background-color: #363e82;
+    }
+    ul.social {
+        margin: 0;
+    }
+    .ourStory,
+    .social {
+        min-height: 170px;
+    }
+    ul.landingLink li {
+        line-height: 9px;
+    }
+    ul.landingLink li a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-device-width:640px) and (orientation: portrait) {
+    .rays .floating {
+        margin-top: 30px;
+    }
+    .red,
+    .blue,
+    .green,
+    .blue .text-right {
+        text-align: center;
+    }
+    .team .respMT100,
+    .team .marginT100 {
+        margin-top: 0;
+    }
+    .team .marginB100 {
+        margin-bottom: 0;
+    }
+    .team .col-md-3 {
+        min-height: 300px;
+    }
+    .team p {
+        margin-bottom: 50px;
+    }
+    .about {
+        margin-top: 40px;
+    }
+    .top-nav-collapse {
+        background-color: #363e82;
+        padding: 10px 0 30px;
+    }
+    .navbar {
+        border-bottom: 1px solid #7573a2;
+        padding: 10px 0 50px;
+        transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent;
+        box-shadow: none;
+        text-align: right;
+        background-color: #363e82;
+    }
+    ul.social {
+        margin: 0;
+    }
+    .ourStory,
+    .social {
+        min-height: 170px;
+    }
+    ul.landingLink li {
+        line-height: 9px;
+    }
+    ul.landingLink li a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-device-width:736px){
+	.navbar{min-height: 105px;}
+	.navbar-collapse.collapse.in{top:105px;position: absolute;}
+}
+@media only screen and (max-device-width: 640px) and (orientation: landscape) {
+    .rays {
+        padding: 30px 0 0;
+        width: 100%;
+        background: url(../images/rays.png) no-repeat center 95px;
+        background-size: 100% 55%;
+    }
+    .red,
+    .blue,
+    .green,
+    .blue .text-right {
+        text-align: center;
+    }
+    .blue .pull-right {
+        float: none !important;
+    }
+    .team .marginT100 {
+        margin-top: 50px;
+    }
+    .team .respMB100,
+    .team .marginB100 {
+        margin-bottom: 50px;
+    }
+    .about {
+        margin-top: 40px;
+    }
+    .top-nav-collapse {
+        background-color: #363e82;
+        padding: 10px 0 30px;
+    }
+    .navbar {
+        border-bottom: 1px solid #7573a2;
+        padding: 10px 0 50px;
+        transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent;
+        box-shadow: none;
+        text-align: right;
+        background-color: #363e82;
+    }
+    ul.social {
+        margin: 0;
+    }
+    .ourStory,
+    .social {
+        min-height: 170px;
+    }
+    ul.landingLink li {
+        line-height: 9px;
+    }
+    ul.landingLink li a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+    .rays {
+        padding: 30px 0 0;
+        width: 100%;
+        background: url("../images/rays.png") no-repeat center 190px;
+        background-size: 100% 35%;
+    }
+    ul.social {
+        margin: 0;
+    }
+    .ourStory,
+    .social {
+        min-height: 170px;
+    }
+    ul.landingLink li {
+        line-height: 9px;
+    }
+    ul.landingLink li a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+    .col-md-3.col-xs-6 {
+        font-size: 15px;
+    }
+    ul.social {
+        margin: 0;
+    }
+    .ourStory,
+    .social {
+        min-height: 170px;
+    }
+    ul.landingLink li {
+        line-height: 9px;
+    }
+    ul.landingLink li a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}

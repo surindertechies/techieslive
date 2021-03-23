@@ -1,0 +1,391 @@
+@media only screen and (min-device-width : 900px) and (max-device-width : 1920px) and (orientation : landscape) {
+	.project .col-md-3 img{width:100%;}
+}
+@media only screen and (min-device-width : 980px) and (max-device-width : 1280px) and (orientation : portrait) {
+	.box{padding:100px 0;}
+	.video {height: 405px !important;}
+}
+@media only screen and (min-device-width : 980px) and (max-device-width : 1280px) and (orientation : landscape) {
+	.certificateCont .container{width:100%;}
+	.development .devDescDtl .buttonDBlue{display:inline-block;font-size:22px !important;}
+	#bannerInternal .hero-content{margin-top:-8vh;font-size: 3vh;}
+}
+@media only screen and (max-device-width:800px) and (orientation: portrait){
+	#bannerInternal .hero-content{top:34%;}
+}
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait) {
+	
+}
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : landscape) {
+	.ourStory, .work, .social, .callToaction {padding:100px 0;}
+	.homeBlog{padding:100px 0 0;}
+	.box{padding:80px 0;}
+	.video{height:600px;}
+	.videoContent{padding:150px 0 0;}
+	.development .devDescDtl .buttonDBlue{font-size:15px;}
+	.india{margin:0 0 50px;}
+	.jobHead{padding-top:0;}
+	.boxMage{min-height:335px;}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	header{padding:20px;}
+	.BannerCont h3{font-size:40px;}
+	.BannerCont .marginT40{margin-top:20px;}
+	.BannerCont{top:26%;}
+	.box{padding:80px 0;}
+	.video{height:150px;}
+	.videoContent{padding:32px 0;}
+	.videoContent{font-size:20px;line-height:30px;}
+	.videoContent p{margin-top:10px;}
+	.homeBlog .col-md-6{width:50%;margin:15px 0;}
+	.hero-content{margin-top:0;}
+	.video {height: 305px;}
+	.videoContent{padding: 0;}
+	.ourStory, .work, .social, .callToaction {padding:50px 0;}
+	.homeBlog{padding:50px 0 0;}
+	.navDown{left:44%;}
+	.certificateCont h2{font-size: 4vh;}
+	#bannerInternal .hero-content h3{font-size: 5vh;}
+	#bannerInternal .hero-content{font-size: 3vh;}
+	.certificateCont .container{width:100%;}
+	.purpose .dgrayBorderDot, .certificateCont .whiteBorderDot{width:65%;}
+	#bannerInternal .whiteBorderDot, .teamMember .dgrayBorderDot{width:50%;}
+	.mobileAppDev .appDtl p{display:none;}
+	.darkBg{background:rgba(0, 0, 0, 0.8) !important;}
+	.lightBg{background:rgba(46, 50, 52, 0.8) !important;}
+	.appDtl .buttonDBlue{margin-top:20px;}
+	.videoContent h3{margin-top:35px;}
+	ul.videosKnow li h4{font-size:20px;}
+	.india{margin:0 0 50px;}
+	.blkBg{min-height:400px;}
+	.jobHead{padding-top:50px;}
+	.postShareCont{position:relative;top:0;}
+	.postByDtl .userThumb{float:none !important;text-align:center;margin:auto;}
+	.postByDtl{top:0;padding:0;float:none;}
+	.postByDtl span{color:#000;display: block;float:none;margin: 10px 0 0 20px;text-align: center;}
+	.postShare{width:100%;}
+	.whiteWrap{margin:0;}
+	.userProfileCont{width:100%;}
+	.userProHold{width: 100%;padding: 100px 20px 0;margin:0;}
+	.userProfileCont h2{font-size:35px;}
+	.userProfileCont {background-position:100% bottom !important;}
+	.landing p{display:none;}
+	.whiteBg .padding0{padding:0 30px !important;}
+	.landServiceCont{min-height:230px;}
+	.bannerMLanding .hero-content{margin-top:5%;}
+	.process .col-md-5{padding: 10px 25px 0;}
+	.boxMage{min-height:465px;}
+	.client ul li{height:200px;}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	header{padding:30px;}
+	.BannerCont{top:38% !important;}
+	.video{height:150px;}
+	.videoContent{padding:80px 0;}
+	.videoContent p{margin-top:10px;}
+	.homeBlog .col-md-6{width:46%;margin:15px;}
+	.box{padding:100px 0;}
+	.blogContent{padding: 8px 20px;}
+	.hero-content{margin-top:0;}
+	.video {height: 407px;}
+	.videoContent{padding: 0;}
+	.ourStory, .work, .social, .callToaction {padding:100px 0;}
+	.homeBlog{padding:100px 0 0;}
+	.BannerCont h3{font-size:5vh;}
+	.certificateCont .container{width:100%;}
+	.purpose .dgrayBorderDot, .certificateCont .whiteBorderDot{width:65%;}
+	#bannerInternal .whiteBorderDot, .teamMember .dgrayBorderDot{width:50%;}
+	.india{margin:0 0 50px;}
+	.blkBg{min-height:400px;}
+	.jobHead{padding-top:125px;}
+	#bannerInternal .hero-content{top:0;}
+	.landServiceCont{min-height:355px;}
+	.landServiceTxt{padding:0 40px;}
+	.boxMage{min-height:362px;}
+}
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
+	.videoContent{padding:28px 0 !important;}
+	.video {height:170px !important;}
+	.relatedLink ul li{font-size:20px !important;}
+}
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) {
+	.BannerCont h3{font-size: 6vh;}
+	.BannerCont .marginT40{margin-top:20px;}
+	.BannerCont{top:8%;}
+	.navDown{width:80px;height:80px;bottom:-44px;}
+	.navDown img{width:80px;height:80px;}
+	header{position:relative;padding: 10px;background:#000;}
+	.slideMenu{top:0;}
+	#menu ul{top:100px;padding: 0 30px 0 0;}
+	#menu ul li a{font-size:30px;}
+	.pageMenu, .hamburger-box{top:24px;}
+	.pageMenu{right:70px;}
+	.hamburger-box{right:30px;}
+	.box{padding:80px 0;}
+	.video{height:150px;}
+	.videoContent{padding:50px 0;}
+	.videoContent p{display:none;}
+	.videoContent span{display:block;margin-top:10px;}
+	.project .marginB150, .homeBlog .marginB150{margin-bottom:50px;}
+	.homeBlog .col-md-6{width:100%;margin:15px 0;}
+	.hero-content{margin-top:0;}
+	.video {height: 250px;}
+	.videoContent{padding: 20px 0;}
+	ourStory, .work, .social, .callToaction {padding:50px 0;}
+	.homeBlog{padding:50px 0 0;}
+	.certificateCont h2{font-size: 12vh;}
+	.purpose .dgrayBorderDot, .certificateCont .whiteBorderDot{width:65%;}
+	#bannerInternal .whiteBorderDot, .teamMember .dgrayBorderDot{width:50%;}
+	#bannerInternal .hero-content h3, .certificateCont h2{font-size: 12vh;}
+	#bannerInternal .hero-content{font-size: 7vh;}
+	.col-md-4.postDtl {float: left;width: 50%;}
+	.india{margin:0 0 50px;}
+	.blkBg{min-height:250px;}
+	.jobHead{padding-top:50px;}
+	.postShareCont{position:relative;top:0;}
+	.postByDtl .userThumb{float:none !important;text-align:center;margin:auto;}
+	.postByDtl{top:0;padding:0;float:none;}
+	.postByDtl span{color:#000;display: block;float:none;margin: 10px 0 0 20px;text-align: center;}
+	.postShare{width:100%;}
+	.userProfileCont{width:100%;}
+	.userProHold{width: 100%;padding: 100px 20px 0;margin:0;}
+	.userProfileCont h2{font-size:35px;}
+	.landing p{display:none;}
+	.process .col-md-5, .process .col-md-6, .process .col-md-5{padding:50px 15px 0;text-align:center;}
+	.process img{display:inline-block;}
+	.process .pull-right{float:none !important;}
+	.teamM .col-md-3 img{display:inline-block;}
+	.client ul li{height:250px;border-bottom:1px solid #fff;border-right:0px solid #fff;}
+	.BannerCont{top:15%;}
+}
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+	.videoContent{padding:28px 0 !important;}
+}
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+	.BannerCont h3{font-size:40px;}
+	.BannerCont .marginT40{margin-top:20px;}
+	.BannerCont{top:8%;}
+	.navDown{width:80px;height:80px;bottom:-44px;}
+	.navDown img{width:80px;height:80px;}
+	header{position:relative;padding: 10px;background:#000;}
+	.slideMenu{top:0;}
+	#menu ul{top:100px;padding: 0 30px 0 0;}
+	#menu ul li a{font-size:30px;}
+	.pageMenu, .hamburger-box{top:24px;}
+	.pageMenu{right:70px;}
+	.hamburger-box{right:30px;}
+	.box{padding:80px 0;}
+	.video{height:150px;}
+	.videoContent{padding:50px 0;}
+	.videoContent p{display:none;}
+	.videoContent span{display:block;margin-top:10px;}
+	.project .marginB150, .homeBlog .marginB150{margin-bottom:50px;}
+	.homeBlog .col-md-6{width:100%;margin:15px 0;}
+	.hero-content{margin-top:0;}
+	.video {height: 250px;}
+	.videoContent{padding: 20px 0;}
+	.ourStory, .work, .social, .callToaction {padding:50px 0;}
+	.homeBlog{padding:50px 0 0;}
+	.BannerCont h3{font-size:25px;}
+	.certificateCont h2{font-size: 12vh;}
+	#bannerInternal .hero-content h3, .certificateCont h2{font-size: 12vh;}
+	#bannerInternal .hero-content{font-size: 7vh;}
+	.col-md-4.postDtl {float: left;width: 50%;}
+	.blkBg{min-height:250px;}
+	.jobHead{padding-top:50px;}
+	.postShareCont{position:relative;top:0;}
+	.postByDtl .userThumb{float:none !important;text-align:center;margin:auto;}
+	.postByDtl{top:0;padding:0;float:none;}
+	.postByDtl span{color:#000;display: block;float:none;margin: 10px 0 0 20px;text-align: center;}
+	.postShare{width:100%;}
+	.userProfileCont{width:100%;}
+	.userProHold{width: 100%;padding: 100px 20px 0;margin:0;}
+	.userProfileCont h2{font-size:35px;}
+	.landing p{display:none;}
+	.process .col-md-5, .process .col-md-6, .process .col-md-5{padding:50px 15px 0;text-align:center;}
+	.process img{display:inline-block;}
+	.process .pull-right{float:none !important;}
+	.teamM .col-md-3 img{display:inline-block;}
+	.client ul li{height:250px;border-bottom:1px solid #fff;border-right:0px solid #fff;}
+}
+@media only screen and (max-device-width:640px) and (orientation: portrait){
+	header{position:relative;padding: 10px;background:#000;}
+	header img, #menu{width:100%;}
+	.pageMenu{display:none;}
+	.hamburger-box{right:30px;}
+	.BannerCont{top:0;}
+	.BannerCont h3{font-size:20px;}
+	.BannerCont .marginT40{margin-top:20px;}
+	.navDown{width:60px;height:60px;bottom:-34px;}
+	.navDown img{width:60px;height:60px;}
+	.box, .videoContent{padding:36px 0;}
+	.homeBlog .col-md-6{width:100%;margin: 15px 0;}
+	.homeBlog .col-md-6 p, .homeBlog .col-md-6 .whiteBorderDot{display:none;}
+	.homeBlog .marginB150{margin-bottom:30px;}
+	footer p{font-size:16px;}
+	footer {padding: 40px 0;}
+	.slideMenu{top:0;}
+	#menu ul{top:100px;padding: 0 30px 0 0;}
+	#menu ul li a{font-size:30px;}
+	.videoContent{font-size:20px;line-height:24px;top:0;}
+	.videoContent p{margin-top:10px;}
+	.value h2{font-size:36px;}
+	.value{font-size:24px;line-height:30px;}
+	.videoContent h3, .project h3, .homeBlog h3{font-size:36px;}
+	.videoContent span{font-size:20px;margin-top:10px;display:block;}
+	.video{height:150px;}
+	.videoContent{padding:24px 0;}
+	.videoContent p{display:none;}
+	.project .marginB150{margin-bottom:50px;}
+	.hero-content{margin-top:0;}
+	.navDown{margin-left:-15px;}
+	.purpose .dgrayBorderDot, .certificateCont .whiteBorderDot{width:100%;}
+	#bannerInternal .whiteBorderDot, .teamMember .dgrayBorderDot{width:80%;}
+	.certificateCont h2{font-size:5.6vh;}
+	.mobileAppDev .appDtlcont p{display:none;}
+	.mobileAppDev .appDtl i{margin-bottom:0;}
+	.appDtl .buttonDBlue{margin-top:20px;}
+	.development .rowBot .tech:nth-child(2n){background:rgba(46, 50, 52, 0.8);}
+	.development .rowBot .tech:nth-child(2n+1){background:rgba(0, 0, 0, 0.8);}
+	.digitalTechCont .rowBot .tech:nth-child(2n){background:rgba(0, 0, 0, 0.8);}
+	.digitalTechCont .rowBot .tech:nth-child(2n+1){background:rgba(46, 50, 52, 0.8);}
+	#bannerInternal .hero-content{top:10px;}
+	.BannerCont h3{font-size:5vh !important;}
+	#bannerInternal .hero-content{font-size:3.2vh !important;}
+	#bannerInternal .whiteBorderDot{margin-bottom:10px;}
+	.contactLoc .col-md-6{margin-bottom: 80px;}
+	.contactLoc .col-md-6 img{display:none;}
+	.india{margin:0 0 50px;}
+	.india .indiaContact{opacity:1;}
+	.contactWrapp{top: 0;transform: translateY(0%);-ms-transform: translateY(0%);-webkit-transform: translateY(0%);}
+	.indiaContact{position:relative;}
+	.blkBg{min-height:250px;}
+	.jobHead{padding-top:50px;}
+	.whiteWrap{margin:0;}
+	.postShareCont{position:relative;top:0;}
+	.postByDtl .userThumb{float:none !important;text-align:center;margin:auto;}
+	.postByDtl{top:0;padding:0;float:none;}
+	.postByDtl span{color:#000;display: block;float:none;margin: 10px 0 0 20px;text-align: center;}
+	.relatedLink ul li{font-size:20px;}
+	.relatedLink ul li a{padding:12px;}
+	.relatedLink ul li a::after{font-size:0;}
+	.userProfileCont{width:100%;}
+	.userProHold{width: 100%;padding: 100px 20px 0;margin:0;}
+	.userProfileCont h2{font-size:35px;}
+	.userProfile .postByName{font-size:16px;}
+	.userProfile .postByName strong{font-size:18px;}
+	.landing p{display:none;}
+	.landServiceTxt{padding:0 15px 0 0;}
+	.landServiceTxt h4{font-size:30px;}
+	.process .col-md-5, .process .col-md-6, .process .col-md-5{padding:50px 15px 0;text-align:center;}
+	.bannerMLanding .BannerCont{height: auto;}
+	.BannerCont h3{font-size: 4vh !important;}
+	.process h2, .reasonM h2, .teamM h2, .client h2{padding: 0 12px 15px;font-size: 35px;}
+	.buttonSimple{font-size:30px;}
+	.teamM .col-md-3{margin-bottom:30px;}
+	.teamM .marginT30{margin-top:0px;}
+	.client ul li{height:250px;border-bottom:1px solid #fff;border-right:0px solid #fff;}
+	.popup-obli-cont {position: relative;height: auto !important;}
+	.popup-obli-cont h2 {margin: 30px 0;}
+}
+@media only screen and (max-device-width: 640px) and (orientation: landscape) {
+	#menu{overflow:auto;}
+	.video{height:210px;}
+	.videoContent{padding:50px 0;font-size:20px;line-height:24px;top:0;}
+	.homeBlog .col-md-6{width:100%;margin: 15px 0;}
+	header{padding:10px 0;}
+	.hamburger-box{right:10px;}
+	.pageMenu{right:50px;}
+	.BannerCont h3{font-size: 20px;}
+	.BannerCont{top:20%;}
+	.box, .videoContent{padding:36px 0;}
+	.project .marginB150{margin-bottom:50px;}
+	.homeBlog .marginB150{margin-bottom:30px;}
+	footer {padding: 40px 0;}
+	.ourStory, .work, .social, .callToaction {padding:70px 0;}
+	.homeBlog{padding:70px 0 0;}
+	#bannerInternal .hero-content h3{font-size: 12vh;}
+	#bannerInternal .hero-content{font-size: 7vh;}
+	.purpose .dgrayBorderDot, .certificateCont .whiteBorderDot{width:100%;}
+	#bannerInternal .whiteBorderDot, .teamMember .dgrayBorderDot{width:50%;}
+	.col-md-4.postDtl {float: left;width: 50%;}
+	.blkBg{min-height:250px;}
+	.jobHead{padding-top:10px;}
+	.postShareCont{position:relative;top:0;}
+	.postByDtl .userThumb{float:none !important;text-align:center;margin:auto;}
+	.postByDtl{top:0;padding:0;float:none;}
+	.postByDtl span{color:#000;display: block;float:none;margin: 10px 0 0 20px;text-align: center;}
+	.postShare{width:100%;}
+	.userProfileCont{width:100%;}
+	.userProHold{width: 100%;padding: 100px 20px 0;margin:0;}
+	.userProfileCont h2{font-size:35px;}
+	.landing p{display:none;}
+	.bannerMLanding .BannerCont h3{font-size:22px;line-height:32px;}
+	.process .col-md-5, .process .col-md-6, .process .col-md-5{padding:50px 15px 0;text-align:center;}
+	.process img{display:inline-block;}
+	.process .pull-right{float:none !important;}
+	.teamM .col-md-3 img{display:inline-block;}
+	.client ul li{height:250px;border-bottom:1px solid #fff;border-right:0px solid #fff;}
+}
+@media only screen and (min-device-width : 600px) and (max-device-width : 1280px) and (orientation : portrait) {
+	.certificateCont h2{font-size:3vh;}
+	#bannerInternal .hero-content h3{font-size:4vh;}
+	#bannerInternal .hero-content{font-size:2vh;}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+	.videoContent{padding:35px 0;}
+	.BannerCont img{max-width:28%;}
+	.BannerCont h3{font-size:14px;}
+	.ourStory, .work, .social, .callToaction {padding:50px 0;}
+	.callToaction h3{margin-top:0;}
+	.homeBlog{padding:50px 0 0;}
+	.teamMember .buttonGrey{padding: 22px 60px;}
+	.teamMemberCont .overLay .projectContent{padding:0;}
+	#bannerInternal .hero-content{line-height: 24px;}
+	.relatedLink ul li{font-size:17px;}
+	.bannerMLanding .hero-content{margin-top: 1vh;}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+	header img, #menu{width:75% !important;}
+	.pageMenu{display:none;}
+	.BannerCont h3{font-size:20px;}
+	.BannerCont .marginT40{margin-top:10px;}
+	.navDown{width:50px;height:50px;bottom:-30px;}
+	.navDown img{width:50px;height:50px;}
+	header img, #menu {width: 100%;}
+	#menu ul{top:100px;padding: 0 30px 0 0;}
+	#menu ul li a{font-size:30px;}
+	.value h2 {font-size: 36px;}
+	.videoContent h3, .project h3, .homeBlog h3{font-size:36px;}
+	.videoContent p{display:none;}
+	.videoContent span{display:block;margin-top:10px;}
+	.hero-content{margin-top:-25px;}
+	.video{height:185px;}
+	.box, .videoContent{padding:44px 0;}
+	.ourStory, .work, .social, .callToaction {padding:50px 0;}
+	.homeBlog{padding:50px 0 0;}
+	#bannerInternal .hero-content h3, .certificateCont h2{font-size: 12vh;}
+	#bannerInternal .hero-content{font-size: 7vh;}
+	.mobileAppDev .appDtlcont p{display:none;}
+	.mobileAppDev .appDtl i{margin-bottom:0;}
+	.appDtl .buttonDBlue{margin-top:20px;}
+	.contactWrapp h2{font-size:30px;}
+	.contactWrapp{font-size:17px;}
+	.contactWrapp span{font-size:15px;}
+	.postShareCont{position:relative;top:0;}
+	.postByDtl .userThumb{float:none !important;text-align:center;margin:auto;}
+	.postByDtl{top:0;padding:0;float:none;}
+	.postByDtl span{color:#000;display: block;float:none;margin: 10px 0 0 20px;text-align: center;}
+	.postShare{width:100%;}
+	.relatedLink ul li{font-size:26px;}
+	.relatedLink ul li a{padding:12px;}
+	.relatedLink ul li a::after{font-size:0;}
+	.landServiceTxt{padding: 0 20px 0 10px;}
+	.landing p{display:none;}
+	.bannerMLanding .BannerCont h3{font-size: 15px;line-height: 28px;}
+	.process .col-md-5, .process .col-md-6, .process .col-md-5{padding:50px 15px 0;text-align:center;}
+	.teamM .col-md-3{margin-bottom:30px;}
+	.teamM .marginT30{margin-top:0px;}
+	.client ul li{height:250px;border-bottom:1px solid #fff;border-right:0px solid #fff;}
+	.teamM .col-md-3 img{display:inline-block;}
+}

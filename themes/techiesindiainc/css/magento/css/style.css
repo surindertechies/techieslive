@@ -1,0 +1,225 @@
+@font-face {
+	font-family: 'MyriadProLight';
+	src: url('../fonts/MyriadProLight.eot');
+	src: url('../fonts/MyriadProLight.eot') format('embedded-opentype'),
+	url('../fonts/MyriadProLight.woff2') format('woff2'),
+	url('../fonts/MyriadProLight.woff') format('woff'),
+	url('../fonts/MyriadProLight.ttf') format('truetype'),
+	url('../fonts/MyriadProLight.svg#MyriadProLight') format('svg');
+}
+@font-face {
+	font-family: 'MyriadProRegular_0';
+	src: url('../fonts/MyriadProRegular_0.eot');
+	src: url('../fonts/MyriadProRegular_0.eot') format('embedded-opentype'),
+	url('../fonts/MyriadProRegular_0.woff2') format('woff2'),
+	url('../fonts/MyriadProRegular_0.woff') format('woff'),
+	url('../fonts/MyriadProRegular_0.ttf') format('truetype'),
+	url('../fonts/MyriadProRegular_0.svg#MyriadProRegular_0') format('svg');
+}
+@font-face {
+	font-family: 'MyriadProBold_0';
+	src: url('../fonts/MyriadProBold_0.eot');
+	src: url('../fonts/MyriadProBold_0.eot') format('embedded-opentype'),
+	url('../fonts/MyriadProBold_0.woff2') format('woff2'),
+	url('../fonts/MyriadProBold_0.woff') format('woff'),
+	url('../fonts/MyriadProBold_0.ttf') format('truetype'),
+	url('../fonts/MyriadProBold_0.svg#MyriadProBold_0') format('svg');
+}
+
+@font-face {
+	font-family: 'MyriadPro-Semibold';
+	src: url('../fonts/MyriadPro-Semibold.eot');
+	src: url('../fonts/MyriadPro-Semibold.eot') format('embedded-opentype'),
+	url('../fonts/MyriadPro-Semibold.woff2') format('woff2'),
+	url('../fonts/MyriadPro-Semibold.woff') format('woff'),
+	url('../fonts/MyriadPro-Semibold.ttf') format('truetype'),
+	url('../fonts/MyriadPro-Semibold.svg#MyriadPro-Semibold') format('svg');
+}
+
+body{ 
+	font-family: 'MyriadProRegular_0'; 
+	margin: 0;
+    padding: 0;
+	font-weight:400;
+	
+	
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
+	transition: all 0.6s ease-in-out;
+	
+	}
+img{max-width:100%;border:0;height:auto;}
+.top { 
+background-image: url("../../../images/magento/slide.jpg");
+background-size:cover; height: 650px; }
+.logo{margin: 26px 0 0 0;}
+.no-padding { padding:0px!important;}
+.m110{ margin: 110px 0 0 0;}
+.m80{ margin: 80px 0 0 0;}
+.m70{ margin: 70px 0 0 0; display:inline-block;}
+.marginTop10 { margin-top:10px;}
+.marginTop5 { margin-top:5px;}
+.banner-content { text-align:center; margin:108px 0 0 0;}
+.banner-content h2 {color:#fff; line-height:48px; font-family: 'MyriadProLight'; margin: 10px 0 0 0; }
+
+.banner-content  a {
+	border:2px solid #ff5819;
+    color: #ff5819;
+    font-size: 22px;
+    padding: 10px 22px;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+	width:180px;
+	margin-top: 35px;
+	display: inline-block;
+	font-family: 'MyriadPro-Semibold';
+}
+
+.banner-content  a:hover{
+	background:#ff5819;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 22px;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+	width:180px;
+}
+.des h2 { font-size:53px;font-family: 'MyriadPro-Semibold'; color:#000000; border-left:6px solid #ff5819;  padding: 0 0 0px 10px; text-transform:uppercase;}
+.des h3 { font-size:28px;font-family: 'MyriadProLight'; color:#000000; line-height:42px; margin:20px 0 0 0 ;}
+.des h4 { font-size:26px;font-family: 'MyriadPro-Semibold'; color:#000000;margin:0px 0 0 0px ;}
+.des p { font-size:20px;font-family: 'MyriadProLight'; color:#000000; margin: 10px 0 0 0px;  line-height:28px;}
+.fa-magic { color:#ff5819;}
+.fa-life-bouy{color:#ff5819;}
+.fa-heart{color:#ff5819;}
+.fa-trophy{color:#ff5819;}
+
+.panel-3{ background-color:#f5f5f5;}
+.panel-3 h2 { font-size:53px;font-family: 'MyriadPro-Semibold'; color:#000000; border-left:6px solid #ff5819;  padding: 0 0 0px 10px; text-transform:uppercase;}
+.panel-3 h3 { font-size:28px;font-family: 'MyriadProLight'; color:#000000; line-height:42px; margin:20px 0 0 0 ;}
+.panel-3 img { padding-bottom:85px; float:right;}
+
+.panel-4 h2 { font-size:53px;font-family: 'MyriadPro-Semibold'; color:#000000; border-left:6px solid #ff5819;  padding: 0 0 0px 10px; text-transform:uppercase;}
+.panel-4 h3 { font-size:28px;font-family: 'MyriadProLight'; color:#000000; line-height:42px; margin:20px 0 0 0 ;}
+.do { text-align:center; margin-top:20px;}
+.do a {
+    border: 2px solid #ff5819;
+    color: #ff5819;
+    display: inline-block;
+    font-family: "MyriadPro-Semibold";
+    font-size: 32px;
+    margin-top: 35px;
+    padding: 14px 40px;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+}
+
+.do a:hover{
+	background:#ff5819;
+	border: 2px solid #ff5819;
+	display: inline-block;
+    color: #fff;
+    font-size: 32px;
+    padding: 14px 40px;
+    text-decoration: none;
+	margin-top: 35px;
+    transition: all 0.5s ease 0s;
+	
+}
+
+.panel-5 { padding-bottom:10px;} 
+.panel-6 {background-color:#262626;}
+.panel-6 h2 { font-size:53px;font-family: 'MyriadPro-Semibold'; color:#ffffff; border-left:6px solid #ff5819;  padding: 0 0 0px 10px; text-transform:uppercase; line-height: 53px;}
+.panel-6 h3 { font-size:28px;font-family: 'MyriadProLight'; color:#ffffff; line-height:42px; margin:20px 0 0 0 ;}
+
+.panel-8 {  background-image: url("../../../images/magento/bottombg.jpg");
+    background-size: cover;
+    margin-top: 130px;
+    padding-bottom: 70px;
+	padding-top: 130px;}
+	
+.panel-8  h1{font-size:50px;font-family: 'MyriadProLight'; color:#ffffff;}	
+.panel-8  p{font-size:20px;font-family: 'MyriadProLight'; color:#ffffff; margin:20px 0 0 0 ; line-height:42px;}	
+.dividerWhite {
+    border-bottom: 4px solid #fff;
+    margin: 10px auto auto;
+    width: 100px;
+}	
+
+.client-lines { border-left:3px solid #515151; padding-bottom:15px;}
+.client-lines h3 {font-size:36px;font-family: 'MyriadProLight'; color:#ffffff;  margin:20px 0 0 20px ;}
+.client-lines p {font-size:24px;font-family: 'MyriadProLight'; color:#ffffff;   margin:0px 0 0 20px ; line-height:34px; }
+.project-detail{}
+.project-detail h2{font-size:40px;font-family: 'MyriadProRegular_0'; color:#000000; border-left:3px solid #ff5819;  padding: 0 0 0px 10px;}
+.project-detail p{font-size:20px;font-family: 'MyriadProLight'; color:#000000; margin: 10px 0 0 0px;  line-height:38px;}
+
+.text-area { font-family: 'MyriadProLight';}
+.social a {
+    color: #000;
+    font-size: 20px;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.mbot45 { margin:0 0 45px 0;}
+.member {}
+.member img {border-radius: 85px; border:3px solid #ededed;top:0;} 
+.member-name {  border-left: 2px solid #ff5819;margin:46px 0 0 0;}
+.member-name h3 {font-size:22px;font-family: 'MyriadProRegular_0'; color:#252525; line-height:15px; margin: 5px 0 0 5px;}
+.member-name p {font-size:20px;font-family: 'MyriadProLight'; color:#252525; margin:5px 0 0 5px;}
+.btn-primary {
+    background-color: #39d60f !important;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+    padding: 10px 20px !important;
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+}
+input[type="text"], input[type="email"], input[type="search"], input[type="password"], textarea{border-radius:0 !important;-moz-border-radius:0 !important;-webkit-border-radius:0 !important;}
+@media only screen and (max-width: 990px) {
+	
+	.panel-3 img { padding-bottom:0px; float:none; text-align:center;}
+	.panel-3 h2  {padding: 0 0 0 0px; margin:0px;}
+	.member-name {margin: 40px 0 0;}
+}
+/*----------------------------- Responsive ------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 1024px), (min-device-width: 768px) and
+(max-device-width: 1024px) and (orientation : landscape) {
+	.member-name{margin:36px 0 0;}
+}
+@media screen and (max-width: 768px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+	.team .row:nth-of-type(2){margin-top:50px;}
+	.team .col-md-4{margin-bottom:30px;}
+	.team .m80{margin-top:0;}
+}
+@media screen and (max-width: 600px), (min-device-width: 600px) and (max-device-width: 960px) and (orientation : portrait) {
+	.member-name{margin:36px 0 0;}
+}
+@media screen and (min-width: 360px) and (max-width: 640px), (min-device-width: 360px) and
+(max-device-width: 640px) and (orientation : landscape) {
+	.team .row:nth-of-type(2){margin-top:50px;}
+	.team .no-padding{padding:0 15px !important;}
+	.team .col-md-4{margin-bottom:30px;}
+	.team .m80{margin-top:0;}
+	.footer-bar, .footer-bar .text-right {text-align:center;}
+}
+@media screen and (min-width: 320px) and (max-width: 480px), (min-device-width: 320px) and
+(max-device-width: 480px) and (orientation : landscape) {
+	..team .row:nth-of-type(2){margin-top:50px;}
+	.team .no-padding{padding:0 15px !important;}
+	.team .col-md-4{margin-bottom:30px;}
+	.team .m80{margin-top:0;}
+	.footer-bar, .footer-bar .text-right {text-align:center;}
+}
+@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) {
+	.member-name{margin:10px 0 0;}
+	.team .row:nth-of-type(2){margin-top:50px;}
+	.team .col-md-4{margin-bottom:30px;}
+	.team .m80{margin-top:0;}
+	.do{margin-top:0;}
+	.do a{margin-top:0;font-size:20px;}
+	.do a:hover{margin-top:0;font-size:20px;}
+	.footer-bar, .footer-bar .text-right {text-align:center;}
+}

@@ -1,0 +1,130 @@
+@media screen and (min-width: 960px) and (max-width: 1280px), (min-device-width: 960px) and
+(max-device-width: 1280px) and (orientation : landscape) {
+	
+}
+@media screen and (min-width: 768px) and (max-width: 1024px), (min-device-width: 768px) and
+(max-device-width: 1024px) and (orientation : landscape) {
+	.navbar-nav > li > a{padding: 42px 10px 15px !important;}
+}
+@media screen and (max-width: 768px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+	.navbar-toggle{margin-top:24px !important;}
+	.navbar-toggle, .navbar-toggle .icon-bar{border:1px solid #fff !important;}
+	.navbar-collapse ul, .navbar-collapse {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.navbar-collapse ul  > li > a{padding:10px 0 !important;}
+	.navbar-collapse ul > li.active > a, .navbar-collapse ul > li > a:hover
+	{
+		background-color: transparent !important;
+		border-bottom: transparent !important;
+	}
+	.navbar-collapse
+	{
+		position:relative;
+		top:18px;
+	}
+	.menu-shrink{padding-bottom:20px;}
+	.carousel-control.left, .carousel-control.right{display:none;}
+}
+@media screen and (min-width: 600px) and (max-width: 960px), (min-device-width: 600px) and
+(max-device-width: 960px) and (orientation : landscape) {
+	
+}
+@media screen and (max-width: 600px), (min-device-width: 600px) and (max-device-width: 960px) and (orientation : portrait) {
+	
+}
+@media screen and (min-width: 360px) and (max-width: 640px), (min-device-width: 360px) and
+(max-device-width: 640px) and (orientation : landscape) {
+	.carousel-control.left, .carousel-control.right{display:none;}
+	.banner-content {margin-top: 120px;}
+	.banner-content h1{font-size:60px;margin-top:42px;}
+	.BackgroundBlue{margin-top:60px;}
+	.marginBottom60{margin-bottom:0;}
+	.marginTop55{margin-top:0;}
+	.navbar-toggle{margin-top:24px !important;}
+	.navbar-toggle, .navbar-toggle .icon-bar{border:1px solid #fff !important;}
+	.navbar-collapse ul, .navbar-collapse {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.navbar-collapse ul  > li > a{padding:10px 0 !important;}
+	.navbar-collapse ul > li.active > a, .navbar-collapse ul > li > a:hover
+	{
+		background-color: transparent !important;
+		border-bottom: transparent !important;
+	}
+	.navbar-collapse
+	{
+		position:relative;
+		top:18px;
+	}
+	.menu-shrink{padding-bottom:20px;}
+}
+@media screen and (max-width: 360px), (min-device-width: 360px) and (max-device-width: 640px) and (orientation : portrait) {
+	
+}
+@media screen and (min-width: 320px) and (max-width: 568px), (min-device-width: 320px) and
+(max-device-width: 568px) and (orientation : landscape) {
+
+}
+@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+	
+}
+@media screen and (min-width: 320px) and (max-width: 480px), (min-device-width: 320px) and
+(max-device-width: 480px) and (orientation : landscape) {
+	.carousel-control.left, .carousel-control.right{display:none;}
+	.banner-content {margin-top: 120px;}
+	.banner-content h1{font-size:60px;margin-top:42px;}
+	.BackgroundBlue{margin-top:60px;}
+	.marginBottom60{margin-bottom:0;}
+	.marginTop55{margin-top:0;}
+	.navbar-toggle{margin-top:24px !important;}
+	.navbar-toggle, .navbar-toggle .icon-bar{border:1px solid #fff !important;}
+	.navbar-collapse ul, .navbar-collapse {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.navbar-collapse ul  > li > a{padding:10px 0 !important;}
+	.navbar-collapse ul > li.active > a, .navbar-collapse ul > li > a:hover
+	{
+		background-color: transparent !important;
+		border-bottom: transparent !important;
+	}
+	.navbar-collapse
+	{
+		position:relative;
+		top:18px;
+	}
+	.menu-shrink{padding-bottom:20px;}
+}
+@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) {
+	.carousel-control.left, .carousel-control.right{display:none;}
+	.banner-content {margin-top: 120px;}
+	.banner-content h1{font-size:60px;margin-top:42px;}
+	.BackgroundBlue{margin-top:60px;}
+	.marginBottom60{margin-bottom:0;}
+	.marginTop55{margin-top:0;}
+	.navbar-toggle{margin-top:24px !important;}
+	.navbar-toggle, .navbar-toggle .icon-bar{border:1px solid #fff !important;}
+	.navbar-collapse ul, .navbar-collapse {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.navbar-collapse ul  > li > a{padding:10px 0 !important;}
+	.navbar-collapse ul > li.active > a, .navbar-collapse ul > li > a:hover
+	{
+		background-color: transparent !important;
+		border-bottom: transparent !important;
+	}
+	.navbar-collapse
+	{
+		position:relative;
+		top:18px;
+	}
+	.menu-shrink{padding-bottom:20px;}
+}

@@ -1,0 +1,266 @@
+body
+{
+    font-size: 19px !important;
+    color: #333333 !important;
+    font-family: 'MyriadProLight', "Helvetica Neue", Helvetica, Arial, sans-serif  !important;
+    margin: 0;
+    padding: 0;
+	font-weight:400;
+}
+img{max-width:100%;}
+a:focus{outline:none;}
+/*--------------------- clearfix -----------------------*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+/*----------------------- margin -------------------*/
+.marginB20{margin-bottom: 20px;}
+
+.marginT0{margin-top:0px;}
+/*----------------------- Bg-&-colors ---------------------*/
+.mediumGrayBg{background: #2374B6 !important;}
+.redColor{color:#e9522d;}
+.blueColor{color:#4eadde;}
+.redColor{color:#fb6666;}
+.font42{font-size:42px;}
+/*----------------------- font-face ---------------------*/
+@font-face {
+	font-family: 'MyriadProLight';
+	src: url('../../font/ios/MyriadProLight.eot');
+	src: url('../../font/ios/MyriadProLight.eot') format('embedded-opentype'),
+	url('../../font/ios/MyriadProLight.woff2') format('woff2'),
+	url('../../font/ios/MyriadProLight.woff') format('woff'),
+	url('../../font/ios/MyriadProLight.ttf') format('truetype'),
+	url('../../font/ios/MyriadProLight.svg#MyriadProLight') format('svg');
+}
+@font-face {
+	font-family: 'MyriadProRegular_0';
+	src: url('../../font/ios/MyriadProRegular_0.eot');
+	src: url('../../font/ios/MyriadProRegular_0.eot') format('embedded-opentype'),
+	url('../../font/ios/MyriadProRegular_0.woff2') format('woff2'),
+	url('../../font/ios/MyriadProRegular_0.woff') format('woff'),
+	url('../../font/ios/MyriadProRegular_0.ttf') format('truetype'),
+	url('../../font/ios/MyriadProRegular_0.svg#MyriadProRegular_0') format('svg');
+}
+@font-face {
+	font-family: 'MyriadProBold_0';
+	src: url('../../font/ios/MyriadProBold_0.eot');
+	src: url('font/ios/MyriadProBold_0.eot') format('embedded-opentype'),
+	url('../../font/ios/MyriadProBold_0.woff2') format('woff2'),
+	url('../../font/ios/MyriadProBold_0.woff') format('woff'),
+	url('../../font/ios/MyriadProBold_0.ttf') format('truetype'),
+	url('../../font/ios/MyriadProBold_0.svg#MyriadProBold_0') format('svg');
+}
+@font-face {
+	font-family: 'mv_boliregular';
+	src: url('../../font/ios/mvboli-webfont.eot');
+	src: url('../../font/ios/mvboli-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../font/ios/mvboli-webfont.woff2') format('woff2'),
+	url('../../font/ios/mvboli-webfont.woff') format('woff'),
+	url('../../font/ios/mvboli-webfont.ttf') format('truetype'),
+	url('../../font/ios/mvboli-webfont.svg#mv_boliregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'helvetica_ce_35_thinregular';
+	src: url('../../font/ios/helvetica_neue_ce_35_thin-webfont.eot');
+	src: url('../../font/ios/helvetica_neue_ce_35_thin-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../font/ios/helvetica_neue_ce_35_thin-webfont.woff2') format('woff2'),
+	url('../../font/ios/helvetica_neue_ce_35_thin-webfont.woff') format('woff'),
+	url('../../font/ios/helvetica_neue_ce_35_thin-webfont.ttf') format('truetype'),
+	url('../../font/ios/helvetica_neue_ce_35_thin-webfont.svg#helvetica_ce_35_thinregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*-------------------------------------------------------*/
+.wrapper{width: 100%;}
+.header
+{
+	background:#2374B6;
+	min-height:84px;
+	padding:15px 0;
+}
+.header .navbar-brand
+{
+	padding:0;
+}
+.header ul li a
+{
+	padding:15px 28px;
+	font-size:16px;
+	text-transform:uppercase;
+	color:#fefefe !important;
+}
+#banner
+{
+	/*background:#f2f2f2;*/
+	padding:100px 0 34px;
+	width:100%;
+	border-bottom:1px solid #ececec;
+}
+#banner, #graph{text-align:center;}
+#banner h1{font-size:50px;margin-bottom:20px;}
+#banner h2{font-size:40px;position:relative;}
+#banner h2 label{font-weight:normal;}
+#banner h2 span{position:absolute;right:126px;top:40px;font-size:16px;color:#969696;font-family: 'mv_boliregular';}
+#banner h2 img{top:-15px;position:relative;}
+#banner h3{font-size:30px;margin-top:0px;}
+#banner h3 img{top:-5px;position:relative;}
+#graph{padding:34px 0;}
+#graph h3{font-size:40px;margin-bottom:40px;}
+#graph p{margin-top:20px;}
+#tag, #clients{width:100%;background:#f2f2f2;padding:20px 0;border-bottom:1px solid #ececec;border-top:1px solid #ececec;font-size:36px;}
+#apps{padding:50px 0;}
+#testimonials
+{
+	background:url(../../images/quote.png) no-repeat;
+	padding-left:20px;
+	font-family: 'helvetica_ce_35_thinregular';
+	font-size:22px;
+	color:#5c5c5c;
+	line-height:30px;
+	margin-top:75px;
+}
+#testimonials span
+{
+	font-size:20px;
+	line-height:12px;
+	display:block;
+	text-align:right;
+	color:#333333;
+}
+#clients{width:100%;background:#f5f5f5;padding:20px 0;border-bottom:1px solid #ececec;border-top:1px solid #ececec;}
+#clients ul
+{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+#clients ul li
+{
+	list-style:none;
+	display:inline-block;
+	margin:0 15px;
+}
+.ameda
+{
+	width:259px;
+	height:88px;
+	transition: all .2s ease-in-out;
+	background:url(../../images/ios/ameda-logo-hov.png) no-repeat
+}
+#clients ul li.ameda:hover
+{
+	background:url(../../images/ios/ameda-logo.png) no-repeat;
+}
+#clients ul li.carluxlimo
+{
+	width:173px;
+	height:88px;
+	transition: all .2s ease-in-out;
+	background:url(../../images/ios/logo-carluxlimo-hov.png) no-repeat;
+}
+#clients ul li.carluxlimo:hover{background:url(../../images/ios/logo-carluxlimo.png) no-repeat;}
+#clients ul li.uxcraft
+{
+	width:108px;
+	height:88px;
+	transition: all .2s ease-in-out;
+	background:url(../../images/ios/logo-uxcraft-hov.png) no-repeat;
+}
+#clients ul li.uxcraft:hover{background:url(../../images/ios/logo-uxcraft.png) no-repeat;}
+#clients ul li.yellow
+{
+	width:147px;
+	height:88px;
+	transition: all .2s ease-in-out;
+	background:url(../../images/ios/logo-yellow-hov.png) no-repeat
+}
+#clients ul li.yellow:hover{background:url(../../images/ios/logo-yellow.png) no-repeat;}
+#clients ul li.ramsis
+{
+	width:90px;
+	height:88px;
+	transition: all .2s ease-in-out;
+	background:url(../../images/ios/ramsis-logo.jpg) no-repeat;
+}
+#clients ul li.ramsis:hover{background:url(../../images/ios/ramsis-logo-hov.jpg) no-repeat;}
+.button
+{
+	font-size:28px;
+	font-family: 'MyriadProRegular_0';
+	padding:10px 80px;
+	text-transform:uppercase;
+	transform: translateZ(0px);
+    transition-duration: 0.3s;
+}
+.button1
+{
+	font-size:24px;
+	font-family: 'MyriadProRegular_0';
+	padding:5px 32px;
+	text-transform:uppercase;
+	transform: translateZ(0px);
+    transition-duration: 0.3s;
+}
+.button{border:2px solid #6c6c6c;color:#6c6c6c;}
+.button1{border:2px solid #fff;color:#fff;background:#616161;}
+.button:hover{text-decoration:none;color:#fff;background:#6c6c6c;}
+.button1:hover{text-decoration:none;color:#333;background:#fff;}
+#footer{padding:50px 0 0;}
+ul#social
+{
+	margin:20px 0 0 0;
+	padding:0;
+	text-align:center;
+}
+ul#social li
+{
+	list-style:none;
+	display:inline;
+	font-size:34px;
+	margin:0 2px;
+}
+ul#social li a i.fa-facebook-square{color:#6378A8;}
+ul#social li a i.fa-twitter-square{color:#6DB9EC;}
+ul#social li a i.fa-google-plus-square{color:#EE6B64;}
+ul#social li a i.fa-linkedin-square{color:#1D93BC;}
+#footer p
+{
+	font-size:16px;
+}
+.navbar-inverse .navbar-toggle{border-color: #fff !important;}
+#fancybox-close
+{
+	right: -50px !important;
+}
+.bg-acct {
+	width:100%;
+    background:#F2F2F2 /*url("../../images/ios/banner.jpg") no-repeat*/;
+}
+.bg-fixed {
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+	/*background-size: cover;*/
+    position: relative;
+}
+.bannCont{height:550px;}
+/*.bannerImg{display:none;}*/

@@ -1,0 +1,690 @@
+/* ==== Google font ==== */
+
+@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+body {
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    /*font-weight: 300;*/
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #444;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+a {
+    color: #d6ee18;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #b7cb1b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.navbar-inverse {
+    background: #fff;
+    border-color: #2374B6;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ddd;
+}
+
+.alignleft {
+    text-align: left;
+}
+
+.alignright {
+    text-align: right;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: #fd680e;
+    border-color: #fd680e;
+}
+
+.btn-theme:hover {
+    color: #fff;
+    background-color: #444;
+    border-color: #444;
+}
+
+form.signup {
+    margin-top: 30px;
+}
+
+form.signup button.btn {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+form.signup input.form-control:focus {
+    border-color: #fd680e;
+}
+
+
+/* Nav */
+
+a.navbar-brand {
+    color: #2374B6 !important;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+a.navbar-brand:hover {
+    color: #2374B6 !important;
+}
+
+
+/* Header */
+
+#home {
+    background-color: #f26322;
+    padding: 30px 0 0 0;
+	margin-top: 66px;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 650px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+#home h1 {
+    margin-top: 100px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 38px;
+    font-weight: 300;
+    letter-spacing: 0.75px;
+}
+
+h2.subtitle {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/* slide */
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -50%;
+    text-align: center;
+    list-style: none;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #C14800;
+}
+
+
+/*why magento*/
+
+#magento {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.titlebar h1 {
+    color: #000;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.titlebar p {
+    color: #666;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#about-1-text {
+    padding-right: 35px;
+}
+
+#magento h4,
+#about-2 h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#accordion_holder {
+    margin-top: 40px;
+}
+
+.accordion {
+    margin-bottom: 40px;
+}
+
+#text_1,
+#text_2,
+#text_3,
+#text_4 {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 3px 0;
+    cursor: pointer;
+}
+
+.accordion li.active>a {
+    background: rgba(170, 170, 170, 0.15) url(../img/close.png) no-repeat center right;
+    color: #151515;
+    box-shadow: none;
+}
+
+.accordion a {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 10px 40px 10px 15px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    background: rgba(170, 170, 170, 0.15) url(../img/open.png) no-repeat center right;
+}
+
+.accordion li div {
+    background: #fff;
+    line-height: 22px;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    display: block;
+    clear: both;
+    float: left;
+}
+
+.titlebar {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.titlebar h1 {
+    color: #000;
+    font-weight: 300;
+}
+
+.titlebar p {
+    color: #aaa;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 10%;
+}
+
+#techies {
+    padding: 80px 0;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    border-top: 1px solid #e7e7e7;
+}
+
+#banner_content {
+    /*margin-top: 30px;*/
+    margin-bottom: 60px;
+}
+
+#banner_content h2 {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#banner_content h3 {
+    color: #EF672F;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#banner_content p {
+    color: #444;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.list-item {
+    margin-bottom: 20px;
+}
+
+.list-item h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.list-item i {
+    color: #EF672F;
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.widget_ourclients {
+    margin-bottom: 0;
+    padding: 20px 0;
+    padding: 60px 0;
+}
+
+.widget_ourclients ul {
+    margin: 0;
+    text-align: center;
+}
+
+.widget_ourclients ul li {
+    margin: 0 24px 28px;
+    display: inline-block;
+    max-width: 110px;
+}
+
+.form_register {
+    width: 100%;
+    background: rgba(252, 252, 252, 0.15);
+    margin: 0 auto;
+    padding: 20px 20px 25px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.form_register h2 {
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.form_register .form-control {
+    height: 46px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    color: #444;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+
+/* footer */
+
+#footer {
+    background: #f26322;
+    padding: 20px 0 5px;
+}
+
+p.copyright {
+    color: #fff;
+    text-align: center;
+}
+
+.heading-text {
+    margin-bottom: 40px;
+}
+
+.pdfDownloadOverlay {
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.pdfDownload {
+    width: 500px;
+    height: 360px;
+    padding: 30px;
+    background: #fff;
+    border: 2px solid #000;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.pdfDownload p {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.pdfDownload .close {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    opacity: 1;
+    font-size: 17px;
+    font-weight: 300;
+    color: #f00
+}
+
+.pdfDownload .close:hover {
+    opacity: 0.8;
+}
+
+.pdfDownload h4 {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #2374b6;
+}
+
+.pdfDownload h5 {
+    text-transform: uppercase;
+}
+
+.pdfDownload input[type="reset"],
+.pdfDownload input[type="button"],
+.pdfDownload input[type="submit"] {
+    margin-bottom: 5px;
+}
+
+.close1 {
+    bottom: 40px;
+    color: #000;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    position: absolute;
+    right: 30px;
+    text-transform: uppercase;
+}
+
+.close1:hover {
+    color: #000;
+}
+
+.pdfDownload div.wpcf7-response-output {
+    margin: 0;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+.pdfDownload div.wpcf7-mail-sent-ok {
+    background: transparent;
+    border: 0;
+    color: #000;
+}
+
+.pdfDownload span.wpcf7-not-valid-tip {
+    position: absolute;
+    right: 4px;
+    top: -36px;
+}
+
+.pdfDownload div.wpcf7-validation-errors {
+    border: 0;
+    right: 25px !important
+}
+
+.ed_validation {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 3px;
+}
+
+div.wpcf7-response-output {
+    display: contents;
+}
+
+@media (max-width: 480px) {
+    .pull-right {
+        float: none !important;
+    }
+    .navbar-nav>li>a {
+        padding-top: 15px !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .pull-right {
+        float: none !important;
+    }
+    .navbar-nav>li>a {
+        padding-top: 15px !important;
+    }
+    .pdfDownload {
+        width: 96%;
+        height: 420px;
+    }
+    .close1 {
+        bottom: 0;
+    }
+}
+
+.message-control {
+    height: 120px !important;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
+    text-shadow: none !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000 !important;
+    font-weight: 400;
+}
+
+.navbar-inverse .navbar-toggle {
+    border: 1px solid #2374B6 !important;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #2374B6;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-toggle:focus {
+    background-color: #f7f7f7 !important;
+}
+
+.navbar-brand {
+    height: 84px !important;
+}
+
+.navbar-nav>li>a {
+    padding-top: 30px !important;
+    font-size: 16px;
+}
+
+.message {
+    padding: 0 !important;
+}
+
+.fiver-button-light {
+    background-color: transparent !important;
+    background-image: none !important;
+    border: 2px solid #fff !important;
+    display: inline-block !important;
+    font-size: 18px !important;
+    text-transform: uppercase !important;
+    line-height: 18px !important;
+    height: auto !important;
+    padding: 14px 10px !important;
+    margin: 11px 10px 11px 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    text-decoration: none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    max-width: 100%;
+    color: #fff !important;
+    background-color: #f5f5f5;
+}
+
+.fiver-button-light:hover {
+    background-color: #fff !important;
+    border: 2px solid #fff !important;
+    color: #2374B6 !important;
+}
+
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #398f14;
+    background: #398f14;
+    color: #fff;
+}
+
+#clients {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: #fff;
+    border-top: 1px solid #e7e7e7;
+    width: 100%;
+    overflow: hidden;
+}
+
+.landingLink h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.landingLink {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.landingLink ul li {
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    max-width: unset !important;
+    margin: 0;
+}
+
+.landingLink li a {
+    font-weight: normal;
+    font-size: 16px;
+    padding: 0 15px;
+    color: #000;
+}
+
+.landingLink li:last-child {
+    border-right: 0px solid #ccc;
+}
+#form_register_btn .btn-primary{background-image:none;background:#0176ff;border-color:#006be9;}
+.cal-to-action{background:#2f2b2f;padding:50px 0;color:#fff;}
+.cal-to-action p{font-size:24px;}
+.cal-to-action a{background:#f26322;color:#fff;display:inline-block;padding: 10px 30px;border-radius: 5px;font-size: 18px;font-weight: bold;}
+.what-we-do{padding:30px 0 50px;background:#fff;}
+.what-we-do h4{color:#000;}
+.navbar-brand{padding: 7px 15px;}
+.navbar-nav > li > a{padding: 20px 30px;}
+.navbar-header{right:auto;}
+.navbar-inverse{border-color:#f26322;}
+
+@media only screen and (max-device-width:736px){
+	.navbar{min-height: 80px;}
+	.navbar-collapse.collapse.in{top:80px;position: absolute;}
+	.navbar-collapse.in{background:#fff;}
+	.navbar-nav > li{font-family:'Lato', sans-serif;}
+	.navbar-toggle, .navbar-toggle .icon-bar{border:1px solid #2374B6 !important;}
+}

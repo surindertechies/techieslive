@@ -1,0 +1,1383 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+a,
+input {
+    transform: translateZ(0px);
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+}
+
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    border: 0;
+    height: auto;
+}
+
+.panel1 {
+    background-image: url("../images/topbg.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 770px;
+}
+
+.nopadding {
+    padding: 0px!important;
+}
+
+.menu {
+    margin-top: 10px!important;
+}
+
+.navbar-nav .fa {
+    font-size: 24px;
+}
+
+.social-icons {
+    float: left;
+    margin-top: 12px;
+}
+
+.social-icons a {
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.banner-area {
+    margin-top: 30px;
+}
+
+.mobile-icons i {
+    color: #ffffff;
+    font-size: 20px;
+}
+.banner-area h1 {
+    color: #ffffff;
+    font-size: 40px;
+}
+.banner-area h2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.banner-area p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 20px 0;
+}
+
+.banner-area a {
+    font-size: 16px;
+    color: #353f4b;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 8px;
+    margin: 10px 0 0 0;
+}
+
+.mobicon {
+    font-size: 80px!important;
+}
+
+.mybtn-info {
+    border-width: 1px;
+    border-color: rgb(241, 196, 15);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(241, 196, 15);
+    width: 299px;
+    height: 44px;
+}
+
+.banner-text {
+    margin: 100px 0 0 0;
+}
+
+.feature h2 {
+    font-size: 40px;
+    color: #7f8c8d;
+    margin: 0;
+    padding: 0;
+}
+
+.feature p {
+    font-size: 22px;
+    color: #7f8c8d;
+    font-weight: lighter;
+    margin: 10px 0 60px 0;
+}
+
+.ios-feature h2,
+.android-feature h2 {
+    font-size: 28px;
+    color: #7f8c8d;
+}
+
+.ios-feature h2 {
+    text-align: right;
+}
+
+.android-feature h2 {
+    text-align: left;
+}
+
+.ios-feature p,
+.android-feature p {
+    font-size: 14px;
+    color: #7f8c8d;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.ios-feature p {
+    text-align: right;
+}
+
+.android-feature p {
+    text-align: left;
+}
+
+.apple-icon {
+    margin: 10px 0 0 0;
+    height: 430px;
+}
+
+.box-dotted {
+    border: 3px dotted #a1a1a1;
+    height: 100%;
+}
+
+.round-apple,
+.round-android {
+    height: 110px;
+    width: 110px;
+    border: 2px solid #f1c40f;
+    position: absolute;
+    top: 35%;
+    background: #fff;
+    border-radius: 60px;
+}
+
+.round-apple {
+    left: 30%;
+}
+
+.round-android {
+    right: 30%;
+}
+
+.round-apple i,
+.round-android i {
+    color: #f1c40f;
+    font-size: 70px!important;
+    margin: 15% 0;
+}
+
+.ios-feature ul,
+.android-feature ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ios-feature ul li,
+.android-feature ul li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #7f8c8d;
+    font-weight: lighter;
+    line-height: auto;
+    margin: 40px 0;
+}
+
+.ios-feature ul li {
+    text-align: right;
+}
+
+.android-feature ul li {
+    text-align: left;
+}
+
+.round-gold {
+    height: 36px;
+    width: 36px;
+    background-color: #2d333d;
+    border: 2px solid #f1c40f;
+    float: right;
+    margin-left: 20px;
+    border-radius: 36px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.android-feature .round-gold {
+    float: left;
+    margin-right: 20px;
+}
+
+.round-gold i {
+    font-size: 16px!important;
+    color: #f1c40f;
+    line-height: 32px;
+}
+
+.section2-content i {
+    float: left;
+    font-size: 40px !important;
+    color: #f1c40f;
+    margin-bottom: 50px;
+}
+
+.content-point h1 {
+    float: left;
+    margin: 0 0 0 20px;
+    padding: 0px;
+    font-weight: lighter;
+    font-size: 27px;
+    color: #2d3e50;
+}
+
+.section2-content p {
+    color: #333;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 0 0px 0;
+}
+
+.content-point span {
+    float: left;
+    line-height: 24px;
+    margin: 0 0 0 20px;
+    width: 88%;
+}
+
+.content-point {
+    float: left;
+    margin: 20px 0 0 0
+}
+
+.content-point a {
+    border-radius: 4px;
+    background-color: rgb(45, 62, 80);
+    width: 226px;
+    z-index: 76;
+    float: left;
+    margin: 40px 0 0 0;
+    font-weight: bold;
+    color: #f1c40f;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.content-point a:hover {
+    color: #fff;
+}
+
+.portfolio-section {
+    padding: 60px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    color: #7f8c8d;
+    font-size: 40px;
+}
+
+.portfolio-section p {
+    color: #7f8c8d;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.borderStar {
+    width: 275px;
+    height: 30px;
+    margin: auto;
+    border-bottom: 1px solid #7f8c8d;
+    position: relative;
+}
+
+.starCircle {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    display: inline-block;
+    border: 1px solid #7f8c8d;
+    border-radius: 50%;
+    position: relative;
+    top: 12px;
+    background: #fff;
+}
+
+.starCircle i {
+    font-size: 18px !important;
+    color: #2d3e50;
+}
+
+.testimonial-section {
+    padding: 60px 0;
+    background: url(../images/testimonial-bg.jpg) center top / cover no-repeat;
+}
+
+.testimonial-section h3,
+.contactus-section h3 {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonial-section p,
+.contactus-section p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.testimonial-section .borderStar,
+.contactus-section .borderStar {
+    border-bottom: 1px solid #f1c40f;
+    text-align: center;
+}
+
+.testimonial-section .starCircle,
+.contactus-section .starCircle {
+    border: 1px solid #f1c40f;
+    background: #404753;
+}
+
+.testimonial-section .starCircle i,
+.contactus-section .starCircle i {
+    font-size: 18px !important;
+    color: #f1c40f;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 18px;
+}
+
+#testimonialCont {
+    min-height: 56px;
+    background: url(../images/quote.png) left top no-repeat;
+    padding-left: 100px;
+    padding-top: 35px;
+    margin-top: 30px;
+}
+
+.user {
+    width: 161px;
+    float: left;
+    margin-right: 30px;
+}
+
+.user img {
+    border: 3px solid #fff;
+    border-radius: 3px;
+}
+
+.testimonialTxt,
+.contactus-section {
+    color: #fff;
+    line-height: 29px;
+}
+
+.testimonialTxt p {
+    margin: 0 0 8px;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.testimonialTxt p.name {
+    margin: 10px 0 0;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 24px;
+}
+
+.testimonialTxt p.name span {
+    text-transform: uppercase;
+}
+
+.tstSlide {
+    width: 100%;
+}
+
+.testimonial-section .nav {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+.testimonial-section .nav #prev2,
+.testimonial-section .nav #next2 {
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    background: #7f8c8d;
+    color: #2d3e50;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 46px/38px Arial, sans-serif;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 5px;
+    font-weight: 300;
+}
+
+.testimonial-section .nav #prev2:hover,
+.testimonial-section .nav #next2:hover {
+    background: #f1c40f;
+}
+
+.team-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.team-section h3 {
+    color: #7f8c8d;
+    font-size: 40px;
+}
+
+.team-section p {
+    color: #7f8c8d;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 30px 0 50px;
+}
+
+.team-section .team {
+    position: relative;
+    overflow: hidden;
+    width: 270px;
+    margin: auto;
+    min-height: 262px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #eeeef0;
+}
+
+.team-section .team:hover .desi {
+    bottom: 0;
+}
+
+.team-section .desi {
+    background-color: rgba(49, 64, 81, 0.7);
+    bottom: -100%;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    transition: all 0.25s ease-out 0s;
+    color: #fff;
+}
+
+.team-section .desi i {
+    position: absolute;
+    left: 0;
+    top: 145px;
+    right: 0;
+    color: #f1c40f;
+    font-size: 28px !important;
+}
+
+.team-section .desi h3 {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 0 5px;
+}
+
+.team-section .desi span {
+    width: 80px;
+    display: block;
+    margin: auto;
+    content: "_";
+    height: 1px;
+    background: #fff;
+}
+
+.team-section .desi h4 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 5px 0 0;
+}
+
+.team-section .nameDes {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+.team-section .col-md-3 {
+    margin-bottom: 30px;
+}
+
+.team img {
+    top: 0;
+}
+
+.marginT80 {
+    margin-top: 80px;
+}
+
+ul#clients {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul#clients li {
+    display: inline-block;
+    margin: 24px;
+}
+
+.contactus-section {
+    padding: 60px 0;
+    background: url(../images/contact-bg.jpg) center top / cover no-repeat;
+}
+
+.contactus-section input[type="text"],
+.contactus-section input[type="email"] {
+    width: 100%;
+    background: #9796a0;
+    padding: 8px 10px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-size: 16px;
+}
+
+.contactus-section textarea {
+    width: 100%;
+    background: #9796a0;
+    padding: 10px;
+    border: 1px solid #fff;
+    height: 160px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-size: 16px;
+}
+
+.contactus-section .col-md-4,
+.contactus-section .col-md-8 {
+    margin-bottom: 35px;
+}
+
+.contactus-section input[type="submit"] {
+    width: 220px;
+    padding: 8px 0;
+    text-align: center;
+    cursor: pointer;
+    color: #2d3e50;
+    background: #f1c40f;
+    display: block;
+    margin: auto;
+    border: 0;
+    font-weight: 700;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer {
+    width: 100%;
+    background: #f1c40f;
+    min-height: 48px;
+}
+
+.footer p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #000;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer ul#social {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float: right;
+}
+
+.footer ul#social li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 8px;
+}
+
+.footer ul#social li a {
+    display: block;
+    color: #2d333d;
+    font-size: 30px;
+}
+
+.footer ul#social li a:hover {
+    color: #fff;
+}
+
+.wrapper {
+    width: 100%;
+    display: inline-block;
+}
+
+
+/*----------------------------Crousel-------------------------*/
+
+.jcarousel-wrapper {
+    margin: 80px auto 0;
+    position: relative;
+    text-align: center;
+}
+
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    width: 200px;
+    float: left;
+    border: 1px solid #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.jcarousel img {
+    max-width: 100%;
+    height: auto !important;
+    margin: 0 5px 30px;
+}
+
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 40%;
+    margin-top: -15px;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    background: #2d3e50;
+    color: #f1c40f;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 53px/38px Arial, sans-serif;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.jcarousel-control-prev:hover,
+.jcarousel-control-next:hover {
+    text-decoration: none;
+    background: #7f8c8d;
+    color: #fff;
+}
+
+.jcarousel-control-prev {
+    left: 15px;
+}
+
+.jcarousel-control-next {
+    right: 15px;
+}
+
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin: 0;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+    background: #fff;
+    color: #4E443C;
+    border-radius: 10px;
+    text-indent: -9999px;
+    margin-right: 7px;
+    -webkit-box-shadow: 0 0 2px #4E443C;
+    -moz-box-shadow: 0 0 2px #4E443C;
+    box-shadow: 0 0 2px #4E443C;
+}
+
+.jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    -webkit-box-shadow: 0 0 2px #F0EFE7;
+    -moz-box-shadow: 0 0 2px #F0EFE7;
+    box-shadow: 0 0 2px #F0EFE7;
+}
+
+.about-section {
+    padding: 70px 0 !important;
+}
+
+.landingLink h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.landingLink .borderB {
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.landingLink {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.landingLink ul li {
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #000;
+}
+
+.landingLink li a {
+    font-weight: normal;
+    font-size: 16px;
+    padding: 0 15px;
+    color: #000;
+}
+
+.landingLink li:last-child {
+    border-right: 0px solid #ccc;
+}
+
+
+/*-------------------------End----------------------------*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .banner-area {
+        margin-top: 50px;
+    }
+    .banner-text {
+        text-align: center;
+        margin: 20px 0 0;
+    }
+    .banner-area h2 {
+        font-size: 28px;
+    }
+    .banner-area p {
+        font-size: 18px;
+    }
+    .mobicon {
+        font-size: 50px !important;
+    }
+    .intro-section {
+        padding-top: 120px !important;
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: 390px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        text-align: right;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent !important;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #efc51c;
+        border-bottom: 2px solid #efc51c
+    }
+    .box-dotted,
+    .apple-icon {
+        display: none;
+    }
+    .feature p {
+        text-align: center;
+    }
+    .round-gold,
+    .android-feature .round-gold,
+    .user {
+        margin: auto;
+        float: none;
+    }
+    .ios-feature ul li,
+    .android-feature ul li,
+    .ios-feature h2,
+    .android-feature h2,
+    .testimonialTxt p.name,
+    .testimonialTxt,
+    .contactus-section,
+    .footer {
+        text-align: center;
+    }
+    .tstSlide {
+        width: 100% !important;
+    }
+    #testimonialCont {
+        padding: 0 25px;
+    }
+    .footer ul#social {
+        float: none;
+    }
+    .navbar {
+        min-height: 112px;
+        padding: 20px 0;
+        transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+    }
+    .top-nav-collapse {
+        background-color: #2d333d;
+        padding: 15px 0;
+    }
+    .mobilBan {
+        width: 40%;
+        float: left;
+    }
+    .mobilCont {
+        width: 60%;
+        float: left;
+    }
+    .panel1 {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .ios-feature ul,
+    .android-feature ul {
+        width: 100%;
+    }
+    .content-point h1,
+    .content-point span {
+        width: 90%;
+    }
+    .nav>li>a {
+        padding: 10px 12px;
+    }
+    .navbar-header {
+        float: none;
+        width: 166px;
+        margin: auto !important;
+    }
+    .navbar-brand {
+        height: auto;
+        padding: 0;
+    }
+    .container,
+    .narrow-layout .wrapper {
+        width: 100% !important;
+    }
+    .ios-feature ul li,
+    .android-feature ul li {
+        display: inline-block;
+        width: 48%;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .ios-feature ul li,
+    .android-feature ul li {
+        display: inline-block;
+        width: 48%;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    .intro-section {
+        padding-top: 100px;
+    }
+    .mobilBan img {
+        max-width: 90%;
+        margin: auto;
+        display: block;
+    }
+    .banner-area a {
+        margin: 0;
+    }
+    .testimonial-section .nav {
+        margin: 20px 0 0;
+    }
+    .container,
+    .narrow-layout .wrapper {
+        width: 100% !important;
+    }
+    #testimonialCont {
+        background: none;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+    .banner-area {
+        margin-top: 50px;
+    }
+    .banner-text {
+        text-align: center;
+        margin: 20px 0 0;
+    }
+    .banner-area h2 {
+        font-size: 28px;
+    }
+    .banner-area p {
+        font-size: 18px;
+    }
+    .mobicon {
+        font-size: 50px !important;
+    }
+    .intro-section {
+        padding-top: 120px !important;
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: 390px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        text-align: right;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent !important;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #efc51c;
+        border-bottom: 2px solid #efc51c
+    }
+    .box-dotted,
+    .apple-icon {
+        display: none;
+    }
+    .feature p {
+        text-align: center;
+    }
+    .round-gold,
+    .android-feature .round-gold,
+    .user {
+        margin: auto;
+        float: none;
+    }
+    .ios-feature ul li,
+    .android-feature ul li,
+    .ios-feature h2,
+    .android-feature h2,
+    .testimonialTxt p.name,
+    .testimonialTxt,
+    .contactus-section,
+    .footer {
+        text-align: center;
+    }
+    .tstSlide {
+        width: 100% !important;
+    }
+    #testimonialCont {
+        padding: 0 25px;
+    }
+    .footer ul#social {
+        float: none;
+    }
+    .navbar {
+        min-height: 112px;
+        padding: 20px 0;
+        transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+    }
+    .top-nav-collapse {
+        background-color: #2d333d;
+        padding: 15px 0;
+    }
+    .mobilBan {
+        width: 40%;
+        float: left;
+    }
+    .mobilCont {
+        width: 60%;
+        float: left;
+    }
+    .panel1 {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .ios-feature ul,
+    .android-feature ul {
+        width: 100%;
+    }
+    .content-point h1,
+    .content-point span {
+        width: 90%;
+    }
+    .container,
+    .narrow-layout .wrapper {
+        width: 100% !important;
+    }
+    #testimonialCont {
+        background: none;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+    #testimonialCont {
+        background: none;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+    .mobilBan {
+        width: 40%;
+        float: left;
+    }
+    .mobilCont {
+        width: 60%;
+        float: left;
+    }
+    .container,
+    .narrow-layout .wrapper {
+        width: 100%;
+    }
+    #testimonialCont {
+        background: none;
+    }
+}
+@media only screen and (max-device-width:736px){
+	.navbar{min-height: 100px;}
+	.navbar-collapse.collapse.in{top:105px;position: absolute;}
+}
+@media only screen and (max-device-width:640px) and (orientation: portrait) {
+    .banner-area {
+        margin-top: 0;
+    }
+    .banner-text {
+        text-align: center;
+        margin: 20px 0 0;
+    }
+    .banner-area h2 {
+        font-size: 28px;
+    }
+    .banner-area p {
+        font-size: 18px;
+    }
+    .mobicon {
+        font-size: 50px !important;
+    }
+    .intro-section {
+        padding-top: 120px !important;
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: 390px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        text-align: right;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent !important;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #efc51c;
+        border-bottom: 2px solid #efc51c
+    }
+    .box-dotted,
+    .apple-icon {
+        display: none;
+    }
+    .feature p {
+        text-align: center;
+    }
+    .round-gold,
+    .android-feature .round-gold,
+    .user {
+        margin: auto;
+        float: none;
+    }
+    .ios-feature ul li,
+    .android-feature ul li,
+    .ios-feature h2,
+    .android-feature h2,
+    .testimonialTxt p.name,
+    .testimonialTxt,
+    .contactus-section,
+    .footer {
+        text-align: center;
+    }
+    .tstSlide {
+        width: 100% !important;
+    }
+    #testimonialCont {
+        padding: 0 25px;
+    }
+    .footer ul#social {
+        float: none;
+    }
+    .navbar {
+        min-height: 112px;
+        padding: 20px 0;
+        transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+    }
+    .navbar-collapse {
+        background: #2d333d;
+    }
+    .top-nav-collapse {
+        background-color: #2d333d;
+        padding: 15px 0;
+    }
+    .container,
+    .narrow-layout .wrapper {
+        width: 100% !important;
+    }
+    #testimonialCont {
+        background: none;
+    }
+}
+
+@media only screen and (max-device-width: 640px) and (orientation: landscape) {
+    .banner-area {
+        margin-top: 50px;
+    }
+    .banner-text {
+        text-align: center;
+        margin: 20px 0 0;
+    }
+    .banner-area h2 {
+        font-size: 28px;
+    }
+    .banner-area p {
+        font-size: 18px;
+    }
+    .mobicon {
+        font-size: 50px !important;
+    }
+    .intro-section {
+        padding-top: 120px !important;
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: 390px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        text-align: right;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent !important;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #efc51c;
+        border-bottom: 2px solid #efc51c
+    }
+    .box-dotted,
+    .apple-icon {
+        display: none;
+    }
+    .feature p {
+        text-align: center;
+    }
+    .round-gold,
+    .android-feature .round-gold,
+    .user {
+        margin: auto;
+        float: none;
+    }
+    .ios-feature ul li,
+    .android-feature ul li,
+    .ios-feature h2,
+    .android-feature h2,
+    .testimonialTxt p.name,
+    .testimonialTxt,
+    .contactus-section,
+    .footer {
+        text-align: center;
+    }
+    .tstSlide {
+        width: 100% !important;
+    }
+    #testimonialCont {
+        padding: 0 25px;
+    }
+    .footer ul#social {
+        float: none;
+    }
+    .navbar {
+        min-height: 112px;
+        padding: 20px 0;
+        transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+    }
+    .top-nav-collapse {
+        background-color: #2d333d;
+        padding: 15px 0;
+    }
+    .mobilBan {
+        width: 40%;
+        float: left;
+    }
+    .mobilCont {
+        width: 60%;
+        float: left;
+    }
+    .panel1 {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .ios-feature ul,
+    .android-feature ul {
+        width: 100%;
+    }
+    .navbar-collapse {
+        background: #2d333d;
+    }
+    .container,
+    .narrow-layout .wrapper {
+        width: 100% !important;
+    }
+    #testimonialCont {
+        background: none;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+    .round-gold,
+    .android-feature .round-gold,
+    .user {
+        margin: auto;
+        float: none;
+    }
+    .tstSlide {
+        width: 100% !important;
+    }
+    #testimonialCont {
+        padding: 0 25px;
+    }
+    .footer ul#social {
+        float: none;
+    }
+    .footer p {
+        text-align: center;
+    }
+    .box-dotted,
+    .apple-icon {
+        display: none;
+    }
+    .feature p {
+        text-align: center;
+    }
+    .round-gold,
+    .android-feature .round-gold,
+    .user {
+        margin: auto;
+        float: none;
+    }
+    .ios-feature ul li,
+    .android-feature ul li,
+    .ios-feature h2,
+    .android-feature h2,
+    .testimonialTxt p.name,
+    .testimonialTxt,
+    .contactus-section,
+    .footer {
+        text-align: center;
+    }
+    .tstSlide {
+        width: 100% !important;
+    }
+    .banner-area {
+        margin-top: 0;
+    }
+    .banner-text {
+        text-align: center;
+        margin: 20px 0 0;
+    }
+    .banner-area h2 {
+        font-size: 28px;
+    }
+    .banner-area p {
+        font-size: 18px;
+    }
+    .mobicon {
+        font-size: 50px !important;
+    }
+    .intro-section {
+        padding-top: 120px !important;
+    }
+    .navbar {
+        min-height: 112px;
+        padding: 20px 0;
+        transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+    }
+    .top-nav-collapse {
+        background-color: #2d333d;
+        padding: 15px 0;
+    }
+    .mybtn-info {
+        width: 100%;
+    }
+    .testimonial-section .nav {
+        margin: 20px 0 0;
+    }
+    .container,
+    .narrow-layout .wrapper {
+        width: 100% !important;
+    }
+    #testimonialCont {
+        background: none;
+    }
+}

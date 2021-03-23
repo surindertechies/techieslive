@@ -1,0 +1,912 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+a,
+input {
+    transform: translateZ(0px);
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+}
+
+img {
+    max-width: 100%;
+    border: 0;
+    height: auto;
+}
+
+.logo {
+    margin: 26px 0 0 0;
+    position: absolute;
+    z-index: 9999;
+}
+
+.logo-contain {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.no-padding {
+    padding: 0px!important;
+}
+
+.mtop120 {
+    margin: 120px 0 0 0;
+}
+
+.mtop100 {
+    margin: 100px 0 0 0;
+}
+
+.mtop15 {
+    margin: 15px 0 0 0;
+}
+
+.m80 {
+    margin: 80px 0 0 0;
+}
+
+.m70 {
+    margin: 70px 0 0 0;
+}
+
+.m60 {
+    margin: 60px 0 0 0;
+}
+
+.m35 {
+    margin: 35px 0 0 0;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+
+.marginTop17 {
+    margin-top: 17px;
+}
+
+.marginTop5 {
+    margin-top: 5px;
+}
+
+.banner-content a {
+    border: 2px solid #ff5819;
+    color: #ff5819;
+    font-size: 22px;
+    padding: 10px 22px;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+    width: 180px;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.banner-content a:hover {
+    background: #ff5819;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 22px;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    width: 180px;
+}
+
+.des h2 {
+    font-size: 44px;
+    color: #333;
+    margin: 0px 0 15px 0px;
+}
+
+.des p {
+    font-size: 20px;
+    color: #2b2a2a;
+    margin: 10px 0 0 0px;
+    font-weight: lighter;
+}
+
+.new-points h3 {
+    font-size: 28px;
+    color: #000000;
+    line-height: 42px;
+    margin: 20px 0 0 0;
+}
+
+.new-points h4 {
+    font-size: 21px;
+    color: #fff;
+    margin: 0px 0 0 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.new-points p {
+    font-size: 16px;
+    color: #2b2a2a;
+    margin: 10px 0 0 0px;
+    font-weight: lighter;
+}
+
+.fa-magic {
+    color: #ff5819;
+}
+
+.fa-life-bouy {
+    color: #ff5819;
+}
+
+.fa-heart {
+    color: #ff5819;
+}
+
+.fa-trophy {
+    color: #ff5819;
+}
+
+.panel-3 {
+    background-image: url("../../images/magento2/benifitbg.jpg");
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+.panel-3 h2 {
+    color: #fff;
+    font-size: 44px;
+    margin: 0px 0 15px;
+    padding: 0;
+}
+
+.des h2 {
+    font-size: 28px;
+    color: #000;
+    line-height: 42px;
+    margin: 20px 0 0 0;
+}
+
+.panel-3 p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 10px 0 0;
+}
+
+.des ul {
+    margin: 0px 0px 0px 30px;
+    padding: 0px;
+}
+
+.des ul li {
+    color: #2b2a2a;
+    font-size: 20px;
+    padding-left: 35px;
+    font-weight: lighter;
+    list-style: none;
+    margin-bottom: 20px;
+    background: url("../../images/magento2/magentoicon.png") left 3px no-repeat;
+}
+
+.panel-4 {
+    background: url("../../images/magento2/twocolor.png") center top repeat-y;
+    padding-bottom: 50px;
+}
+
+.panel-4 h2 {
+    color: #ffffff;
+    font-size: 40px;
+    padding: 0;
+    font-weight: lighter;
+}
+
+.panel-4 p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 20px 0 0;
+    line-height: 32px;
+}
+
+.panel-4 span {
+    color: #2b2a2a;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.panel-4 h4 {
+    color: #f15c22;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.panel-4 h3 {
+    color: #2b2a2a;
+    font-size: 40px;
+    padding: 0;
+    font-weight: lighter;
+}
+
+.cyan-panel {
+    background: #2cb79e none repeat scroll 0 0;
+    padding: 10px 20px 50px !important;
+}
+
+.grey-panel {
+    background: #ebebeb none repeat scroll 0 0;
+    padding: 10px 20px 50px !important;
+}
+
+.buttonPurpul {
+    background: #f15c22 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #f15c22;
+}
+
+.txtCapt {
+    text-transform: capitalize !important;
+}
+
+.buttonPurpul:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #2cb79e;
+    text-decoration: none;
+    border: 1px solid #2cb79e;
+}
+
+.buttonorange {
+    background: #f15c22 none repeat scroll 0 0 !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-size: 18px !important;
+    padding: 15px 70px !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    border: 1px solid #f15c22!important;
+    height: auto !important;
+}
+
+.buttonorange:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0!important;
+    color: #2cb79e;
+    text-decoration: none;
+    border: 1px solid #2cb79e!important;
+}
+
+.panel-5 {
+    padding-bottom: 10px;
+}
+
+.panel-6 {
+    background-color: #262626;
+}
+
+.panel-6 h2 {
+    font-size: 53px;
+    color: #ffffff;
+    border-left: 6px solid #ff5819;
+    padding: 0 0 0px 10px;
+    text-transform: uppercase;
+    line-height: 53px;
+}
+
+.panel-6 h3 {
+    font-size: 28px;
+    color: #ffffff;
+    line-height: 42px;
+    margin: 20px 0 0 0;
+}
+
+.panel-8 {
+    background-image: url("../../images/magento2/bottombg.jpg");
+    background-size: cover;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    background-attachment: fixed;
+}
+
+.panel-8Mob {
+    margin-top: 0;
+}
+
+.panel-8 h1 {
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.panel-8 p {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 20px 0 0 0;
+    line-height: 42px;
+    font-weight: lighter;
+}
+
+.panel-8 input[type="text"],
+.panel-8 input[type="email"],
+.panel-8 textarea {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.dividerWhite {
+    border-bottom: 4px solid #fff;
+    margin: 10px auto auto;
+    width: 100px;
+}
+
+.panel-9 {
+    padding: 10px 0
+}
+
+.client-lines {
+    border-left: 3px solid #515151;
+    padding-bottom: 15px;
+}
+
+.client-lines h3 {
+    font-size: 36px;
+    color: #ffffff;
+    margin: 20px 0 0 20px;
+}
+
+.client-lines p {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0px 0 0 20px;
+    line-height: 34px;
+}
+
+.project-detail {}
+
+.project-detail h2 {
+    font-size: 40px;
+    color: #000000;
+    border-left: 3px solid #ff5819;
+    padding: 0 0 0px 10px;
+}
+
+.project-detail p {
+    font-size: 20px;
+    color: #000000;
+    margin: 10px 0 0 0px;
+    line-height: 38px;
+}
+
+.text-area {}
+
+.social-magento-development a {
+    color: #000;
+    font-size: 24px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.mbot45 {
+    margin: 0 0 45px 0;
+}
+
+.member {}
+
+.member-name {
+    margin: 20px 0 0 0;
+}
+
+.member-name h3 {
+    font-size: 18px;
+    color: #252525;
+    margin: 0px 0 0 0px;
+    line-height: normal;
+}
+
+.member-name p {
+    font-size: 14px;
+    color: #252525;
+    margin: 5px 0 0 5px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-twitter-square {
+    color: #00aced;
+}
+
+.fa-google-plus-square {
+    color: #DD5145;
+}
+
+.fa-linkedin-square {
+    color: #007bb6;
+}
+
+.fa-youtube-square {
+    color: #bb0000;
+}
+
+.team img {
+    top: 0;
+}
+
+.slider1 a {
+    display: block;
+}
+
+a:focus {
+    color: #fff !important;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+ul#clients {
+    margin: 40px 0 0;
+    padding: 30px 0 0;
+    text-align: center;
+}
+
+ul#clients li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px 20px;
+    background: none;
+    padding: 0;
+}
+
+.how-it-works {
+    margin-top: 50px;
+}
+
+.how-it-works h4 {
+    font-size: 24px;
+}
+
+.how-it-works h3,
+.how-it-works p {
+    margin-left: 96px;
+}
+
+.how-it-works p {
+    font-size: 16px;
+}
+
+.step-number {
+    background: #2CB79E;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    height: 68px;
+    margin: auto;
+    position: relative;
+    width: 68px;
+}
+
+.step-number span {
+    bottom: auto;
+    left: 50%;
+    position: absolute;
+    right: auto;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.New-magento-header {
+    width: 100%;
+    z-index: 999;
+    padding: 0 !important;
+    position: relative !important;
+}
+
+.step-number {
+    position: absolute;
+}
+
+.how-it-works .row:not(:last-child) {
+    margin-bottom: 3em;
+}
+
+.lightGreyBg {
+    background: #F3F3F3;
+}
+
+.features {
+    margin-top: 50px;
+    padding: 40px 0;
+}
+
+.features h4 {
+    color: #888;
+}
+
+.features p {
+    color: #666;
+    font-size: 15px;
+}
+
+.features .section-header {
+    margin-bottom: 30px;
+}
+
+.features h3 {
+    margin: 0 0 5px;
+    color: #444;
+    font-size: 22px;
+}
+
+.featuresImg img {
+    width: 50px;
+    height: 50px;
+}
+
+.proj h4 {
+    color: #ef672f;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.proj ul {
+    margin: 0;
+    padding: 0;
+}
+
+.proj ul li {
+    background: none;
+    font-size: 18px;
+    padding-left: 0;
+    margin-bottom: 6px;
+}
+
+.pdfDownloadOverlay {
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.pdfDownload {
+    width: 500px;
+    height: 360px;
+    padding: 30px;
+    background: #fff;
+    border: 2px solid #000;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.pdfDownload p {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.pdfDownload .close {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    opacity: 1;
+    font-size: 17px;
+    font-weight: 300;
+    color: #f00
+}
+
+.pdfDownload .close:hover {
+    opacity: 0.8;
+}
+
+.pdfDownload h4 {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #2374b6;
+}
+
+.pdfDownload h5 {
+    text-transform: uppercase;
+}
+
+.pdfDownload input[type="reset"],
+.pdfDownload input[type="button"],
+.pdfDownload input[type="submit"] {
+    margin-bottom: 5px;
+}
+
+.close1 {
+    bottom: 40px;
+    color: #000;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    position: absolute;
+    right: 30px;
+    text-transform: uppercase;
+}
+
+.close1:hover {
+    color: #000;
+}
+
+.pdfDownload div.wpcf7-response-output {
+    margin: 0;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+.pdfDownload div.wpcf7-mail-sent-ok {
+    background: transparent;
+    border: 0;
+    color: #000;
+}
+
+.pdfDownload span.wpcf7-not-valid-tip {
+    position: absolute;
+    right: 4px;
+    top: -36px;
+}
+
+.pdfDownload div.wpcf7-validation-errors {
+    border: 0;
+    right: 25px !important
+}
+
+.ed_validation {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 3px;
+}
+
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #398f14;
+    background: #398f14;
+    color: #fff;
+}
+
+#clients {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: #fff;
+    border-top: 1px solid #e7e7e7;
+    width: 100%;
+    overflow: hidden;
+}
+
+.landingLink h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.landingLink {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.landingLink li {
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+}
+
+.landingLink li a {
+    font-weight: normal;
+    font-size: 16px;
+    padding: 0 15px;
+    color: #000;
+}
+
+.landingLink li:last-child {
+    border-right: 0px solid #ccc;
+}
+
+@media only screen and (max-width: 990px) {
+    .panel-3 img {
+        padding-bottom: 0px;
+        float: none;
+        text-align: center;
+    }
+    .panel-3 h2 {
+        padding: 0 0 0 0px;
+        margin: 0px;
+    }
+    .member-name {
+        margin: 40px 0 0;
+    }
+}
+
+
+/*----------------------------- Responsive ------------------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px),
+(min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .member-name {
+        margin: 36px 0 0;
+    }
+    .panel-4 {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 768px),
+(min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .team .row:nth-of-type(2) {
+        margin-top: 50px;
+    }
+    .team .col-md-4 {
+        margin-bottom: 30px;
+    }
+    .team .m80 {
+        margin-top: 0;
+    }
+    .container {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 600px),
+(min-device-width: 600px) and (max-device-width: 960px) and (orientation: portrait) {
+    .member-name {
+        margin: 36px 0 0;
+    }
+    .des {
+        background: none;
+    }
+    .des ul {
+        margin: 0;
+    }
+    .pdes ul li {
+        margin-bottom: 20px;
+    }
+    .panel-4 {
+        padding-bottom: 0;
+    }
+    .panel-3 h2 {
+        font-size: 40px;
+    }
+    .logoSet {
+        background: #666;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .logo {
+        position: relative;
+        margin: 0;
+    }
+    .container {
+        width: 100%;
+    }
+    .pdfDownload {
+        width: 96%;
+        height: 420px;
+    }
+    .pdfDownloadOverlay {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px),
+(min-device-width: 360px) and (max-device-width: 640px) and (orientation: portrait) {
+    .pdfDownloadOverlay {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px),
+(min-device-width: 360px) and (max-device-width: 640px) and (orientation: landscape) {
+    .team .row:nth-of-type(2) {
+        margin-top: 50px;
+    }
+    .team .no-padding {
+        padding: 0 15px !important;
+    }
+    .team .col-md-4 {
+        margin-bottom: 30px;
+    }
+    .team .m80 {
+        margin-top: 0;
+    }
+    .footer-bar,
+    .footer-bar .text-right {
+        text-align: center;
+    }
+    .panel-4 {
+        background: none;
+    }
+    .pdfDownloadOverlay {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px),
+(min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+    ..team .row:nth-of-type(2) {
+        margin-top: 50px;
+    }
+    .team .no-padding {
+        padding: 0 15px !important;
+    }
+    .team .col-md-4 {
+        margin-bottom: 30px;
+    }
+    .team .m80 {
+        margin-top: 0;
+    }
+    .footer-bar,
+    .footer-bar .text-right {
+        text-align: center;
+    }
+    .pdfDownloadOverlay {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 320px),
+(min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    .member-name {
+        margin: 10px 0 0;
+    }
+    .team .row:nth-of-type(2) {
+        margin-top: 50px;
+    }
+    .team .col-md-4 {
+        margin-bottom: 30px;
+    }
+    .team .m80 {
+        margin-top: 0;
+    }
+    .do {
+        margin-top: 0;
+    }
+    .do a {
+        margin-top: 0;
+        font-size: 20px;
+    }
+    .do a:hover {
+        margin-top: 0;
+        font-size: 20px;
+    }
+    .footer-bar,
+    .footer-bar .text-right {
+        text-align: center;
+    }
+    .panel-4 {
+        background: none;
+    }
+    .pdfDownloadOverlay {
+        display: none !important;
+    }
+}
